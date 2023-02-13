@@ -58,6 +58,10 @@
 
 @media screen and (max-width: 425px) {
 
+    body{
+        margin-right:23%;
+    }
+
     #top{
         width: 112%;
     }

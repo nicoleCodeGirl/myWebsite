@@ -185,7 +185,7 @@ Making a two column about me section
 }
 
   /*==============================
-                FORM
+                MESSAGE BOX
   ================================*/
 
   #messageBox{
@@ -195,91 +195,9 @@ Making a two column about me section
     background-color: #f5eaef;
   }
 
-#leave_message{
-    background: linear-gradient(37deg, rgba(2,0,36,1) 2%, rgba(119,20,221,1) 55%, rgba(0,212,255,1) 100%);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    padding: 3%;
-}
-
-
-#leave_message div{
-    padding: 3%;
-    border: 3px dotted pink;
-  }
-
-#item-name{
-    grid-column: 1/2;
-}
-
-#item-email{
-    grid-column: 2/2;
-}
-#item-message{
-    grid-column: 1/3;
-    grid-row: 2/12;
-}
-
-#item-submit{
-    grid-column: 1/3;
-}
 
 
 
-label{
-    font-size: 2vw;
-    color: pink;
-    margin: 8px;
-    text-shadow: -1px -1px 0 maroon, 2px 2px 0 maroon, 2px 3px 0 maroon;
-}
-
-input, textarea{
-    font-size: 12px; 
-    padding: 5px;
-    border: 3px double orange;
-    margin: 10px;
-}
-
-#message{
-    height: 50%;
-    width: 90%;
-}
-
-#name, #email{
-    height: 40%;
-    width: 50%;
-}
-
-
-
-label[for="message"]{
-    position: relative;
-}
-
-button[type="submit"] {
-    margin: 3%;
-    border-radius: 15px;
-    border: 4px solid #eee9ed;
-    box-shadow: aqua;
-    background-color: rgb(179 99 225);
-    color: #eeeaf3;
-    width: 35%;
-    float: right;
-    padding: 1%;
-}
-
-#messages{
-    padding: 3%;
-    background-color: pink;
-    margin-top: 2%;
-}
-
-#removeBtn{
-    background-color: red;
-    color:white;
-    padding: 3px;
-}
 
 /*==============================
             FOOTER

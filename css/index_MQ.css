@@ -17,12 +17,7 @@
     }
 }
 
-@media screen and (max-width: 490px) {
-   
-    body{
-        margin-right:15%;
-    }
-}
+
 
 @media screen and (max-width: 475px) {
    
@@ -83,6 +78,13 @@
     }
 }
 
+
+@media screen and (max-width: 390px) {
+   
+    body{
+        margin-right:15%;
+    }
+}
 
 @media screen and (max-width: 320px) {
     #gitHubLink{

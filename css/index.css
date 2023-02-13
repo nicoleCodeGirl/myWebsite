@@ -211,7 +211,8 @@ footer{
     padding: 5px;
     margin-top:10px;
     width: 104%;
-    margin-left: -20px;
+    margin-left: -20px; 
+    display: flex;
 }
 
 #copyright{
@@ -219,9 +220,12 @@ footer{
 }
 
 #footerNav{
-    float:right;
-    padding-right:40px;
+    display: inline-flex;
+    padding-right: 40px;
     margin-right: 10%;
+    width: 100%;
+    align-content: space-between;
+    justify-content: space-around;
 }
 
 #footerNav a{

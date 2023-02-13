@@ -1,11 +1,11 @@
 //FOOTER
-let today = new Date();
-let thisYear= today.getFullYear();
-let footer = document.querySelector('footer');
-let copyright = document.createElement('p');
-copyright.innerText = `Nicole Bradley ${thisYear}`;
-copyright.id="copyright";
-footer.appendChild(copyright);
+// let today = new Date();
+// let thisYear= today.getFullYear();
+// let footer = document.querySelector('footer');
+// let copyright = document.createElement('p');
+// copyright.innerText = `Nicole Bradley ${thisYear}`;
+// copyright.id="copyright";
+// footer.appendChild(copyright);
 
 //SKILLS SECTION
 let skills = ["WordPress", "Elementor", "JavaScript", "HTML", "CSS", "Nodejs", "MongoDB"];

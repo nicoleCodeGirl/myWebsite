@@ -1,5 +1,3 @@
-
-
 //SKILLS SECTION
 let skills = ["WordPress", "Elementor", "JavaScript", "HTML", "CSS", "Nodejs", "MongoDB"];
 let skillsSection = document.getElementById("skills");

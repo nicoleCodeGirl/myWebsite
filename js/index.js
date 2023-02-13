@@ -8,27 +8,3 @@ for (i= 0; i < skills.length; i++){
     skill.innerHTML = skills[i];
     skillsList.appendChild(skill);
 }
-
-
-
-//FETCH API
-
-// fetch('https://api.github.com/users/nicoleCodeGirl/repos')
-//   .then((response) => response.json())
-//   .then(function(repositories) {
-    
-//     let projectSection  = document.getElementById("projects");
-
-//     let projectList = projectSection.querySelector("ul");
-
-//     for (let i = 0; i < repositories.length; i++){
-//         let project = document.createElement("li");
-//         project.innerHTML = `<a href="https://www.github.com/nicolecodegirl/${repositories[i].name}">` + repositories[i].name + '</a>';
-//         projectList.appendChild(project);
-//         console.log(project.innerText)
-    
-    
-//     }
-//             console.log(repositories, "the array that has the list of repositories");
-
-//   } );

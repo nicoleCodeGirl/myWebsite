@@ -5,8 +5,8 @@ body{
     background-color: brown;
     color: maroon;
     font-family: 'Permanent Marker', cursive;
-    margin: auto;
-    padding: 3%;
+    /* margin: auto;
+    padding: 3%; */
 }
 
 #content{
@@ -67,11 +67,7 @@ Making a two column about me section
     border: 25px double maroon;
 }
 
-/* .photoFlexContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 .sections, h2{
     color: red;
     padding:3%;

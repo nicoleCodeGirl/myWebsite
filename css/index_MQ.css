@@ -20,7 +20,10 @@
 
 
 @media screen and (max-width: 475px) {
-   
+    
+    body{
+        margin: 0% 1% 0% -1%;
+    }
 
     .flexItem {
         width: 74%;

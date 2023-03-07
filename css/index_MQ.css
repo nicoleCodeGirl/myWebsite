@@ -21,9 +21,6 @@
 
 @media screen and (max-width: 475px) {
    
-    #aboutFlex{
-        flex-direction: column-reverse;
-    }
 
     .flexItem {
         width: 74%;
@@ -44,10 +41,6 @@
         height:75px;
     }
    
-
-    /* #copyright {
-        margin-left: 10%;
-    } */
 }
 
 

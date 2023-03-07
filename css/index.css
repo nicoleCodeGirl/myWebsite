@@ -67,11 +67,11 @@ Making a two column about me section
     border: 25px double maroon;
 }
 
-.photoFlexContainer{
+/* .photoFlexContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 .sections, h2{
     color: red;
     padding:3%;

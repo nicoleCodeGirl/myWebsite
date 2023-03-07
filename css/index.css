@@ -5,8 +5,7 @@ body{
     background-color: brown;
     color: maroon;
     font-family: 'Permanent Marker', cursive;
-    /* margin: auto;
-    padding: 3%; */
+    margin:0%;
 }
 
 #content{
@@ -59,7 +58,7 @@ Making a two column about me section
     background-color: #eaadc4;
     line-height: 2;
     padding: 4%;
-    margin: 2%;
+    margin: 1%;
     box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
   }
 

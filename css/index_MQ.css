@@ -37,11 +37,16 @@
 
     .flexItem2nd {
         width: 90%;
+        padding: 10%;
     }
 
     #headerLogo{
         width: 75px;
         height:75px;
+    }
+
+    #messageBox{
+        padding: 10%;
     }
    
 }
@@ -61,9 +66,9 @@
         width: 110%;
     }
 
-    #messageBox{
+    /* #messageBox{
         padding: 6%;
-    }
+    } */
 
     #footerNav{
         margin-right: -19%;

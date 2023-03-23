@@ -64,6 +64,7 @@ Making a two column about me section
 
 #profilePic {
     border: 25px double maroon;
+    margin: 1% auto 1% 15%;
 }
 
 
@@ -82,21 +83,33 @@ Making a two column about me section
     text-align: justify;
 }
 
-/* div.scroll {
-    background-color: #fed9ff;
-    width: 600px;
-    height: 150px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    text-align: center;
-    padding: 20px;
-  } */
-
 
 div.jewelry img{
     padding: 4%;
     margin: 1%;
 }
+
+/*==============================
+            DONATE
+================================*/
+
+
+.donation-container {
+    padding: 1%;
+    background-color: lightcyan;
+    text-align: center;
+    margin: 1%;
+    box-shadow: inset -17px -18px 9px -5px #90e7c1, inset 17px 18px 9px -5px #afe8df;
+    border: 13px pink double;
+  }
+  
+  #donate-img {
+    cursor: pointer;
+    width: 50%;
+  }
+  
+ 
+  
 
 /*==============================
             EXPERIENCE

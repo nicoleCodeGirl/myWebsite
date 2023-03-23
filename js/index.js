@@ -8,3 +8,17 @@ for (i= 0; i < skills.length; i++){
     skill.innerHTML = skills[i];
     skillsList.appendChild(skill);
 }
+
+//DONATE
+
+const donateImg = document.getElementById("donate-img");
+const donateBtn = document.getElementById("donate-btn");
+
+donateImg.addEventListener("click", () => {
+  window.location.href = "https://www.paypal.me/nicoleluvzpurple";
+});
+
+donateBtn.addEventListener("click", () => {
+  window.location.href = "https://www.paypal.me/nicoleluvzpurple";
+});
+

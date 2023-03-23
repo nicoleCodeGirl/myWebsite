@@ -40,6 +40,11 @@
         padding: 10%;
     }
 
+    .donation-container {
+        padding: 2%;
+        margin: 3%;
+    }
+
     #headerLogo{
         width: 75px;
         height:75px;
@@ -66,9 +71,9 @@
         width: 110%;
     }
 
-    /* #messageBox{
-        padding: 6%;
-    } */
+    .donation-container {
+        width: 107%;
+    }
 
     #footerNav{
         margin-right: -19%;

@@ -64,7 +64,7 @@ Making a two column about me section
 
 #profilePic {
     border: 25px double maroon;
-    margin: 1% auto 1% 15%;
+    /* margin: 1% auto 1% 15%; */
 }
 
 

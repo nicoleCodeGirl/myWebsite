@@ -20,19 +20,22 @@
 
 <body>
     <header id="top">
-        <nav id="headerNav">
-            <img id="headerLogo" src="photos/purpleButterfly.png" alt="purple butterfly logo" width="100" height="100">
+        <img id="headerLogo" src="photos/purpleButterfly.png" alt="purple butterfly logo" width="100" height="100">
 
-            <a href='#aboutMe'>ABOUT ME</a>
+        <nav id="headerNav">
+            <a href='#aboutMe'>ABOUT</a>
             <a href='#updates'>UPDATES</a>
             <a href="#experience">EXPERIENCE</a>
             <a href="#skills">SKILLS</a>
             <a href="#projects">PROJECTS</a>
             <a href="#donate">DONATE</a>
-            <a href="#emailMe">EMAIL ME</a>
+            <a href="#emailMe">CONTACT</a>
         </nav>
-
     </header>
+
+    
+  
+    
 
     <div class="flex-container">
 
@@ -95,13 +98,6 @@
         </div><!--end div flexItem (second flex item))-->
     </div><!-- end of the flex container-->
 
-    <div class="donation-container">
-        <h2 id="donate">Please donate to support me!</h2>
-        <img src="photos/Donate.png" alt="donation image" id="donate-img">
-    </div>
-    <!--end div donation-container-->
-      
-
 
     <div id="content">
 
@@ -146,37 +142,76 @@
 
         </div><!--end flex container for the skills and projects-->
 
-
-        <div id="messageBox">
+        
+        <div id="aboveFooter">
             <section>
-                <h2 id="emailMe" class="sections">EMAIL ME</h2>
-                <p>Please send me an email</p>
-                <p>If the email button below doesnt work just email me at nicolecodegirl@gmail.com</p>
-                <a href="mailto: nicolecodegirl@gmail.com"><button>EMAIL ME</button></a>
+                <h3 id="emailMe" class="sections">Contact me by email:</h3>
+                <a href="mailto: nicolecodegirl@gmail.com">
+                    <!-- <button>EMAIL ME</button> -->
+                    <img src="photos/emailMeButton.png" alt="email image" id="email-img">
+                </a>
+            </section>
                 
+            <section>
+                <h3 id="donate">Please donate to support me!</h3>
+                <img src="photos/Donate.png" alt="donation image" id="donate-img">
+            <section>
+
             </section>
     </div><!--end div for the message box-->
 
     </div><!-- end content -->
 
-    <footer>
-
-        <nav id="footerNav">
-            <p id="myCopyright">Nicole Bradley 2023</p>
-
-            <a id="gitHubLink" href="https://github.com/nicoleCodeGirl/">
-                <ion-icon name="logo-github" size="large"></ion-icon>
-            </a>
-            <a href="https://www.linkedin.com/in/nicolecodegirl/">
-                <ion-icon name="logo-linkedin" size="large"></ion-icon>
-            </a>
-            <a href="https://www.paypal.me/nicoleluvzpurple">
-            <ion-icon name="logo-paypal" size="large"></ion-icon>
-        </a>
-
-            <a href="#top">BACK TO TOP</a>
-        </nav>
-    </footer>
+      
+      <footer>
+        <div class="footer-menu">
+            <ul>
+                <li><a href='#aboutMe'>ABOUT</a></li>
+                <li><a href='#updates'>UPDATES</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+              </ul>
+        </div>
+      
+        <!-- <div class="footer-buttons">
+            <a href="mailto: nicolecodegirl@gmail.com">EMAIL ME</a>
+            <a href="https://www.paypal.me/nicoleluvzpurple">Donate Now</a>
+        </div> -->
+      
+        <div class="footer-social-media">
+            <ul>
+                <li>
+                    <a id="gitHubLink" href="https://github.com/nicoleCodeGirl/">
+                        <ion-icon name="logo-github" ></ion-icon>
+                        www.github.com/nicoleCodeGirl
+                    </a>
+                </li>
+                
+                <li> 
+                    <a href="https://www.linkedin.com/in/nicolecodegirl/">
+                        <ion-icon name="logo-linkedin" ></ion-icon>
+                        www.linkedin.com/in/nicolecodegirl
+                    </a>
+                </li>
+                
+    
+              </ul>
+        </div>
+      
+        <div class="footer-line"></div>
+      
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            &copy; 2023 Nicole Bradley. All rights reserved.
+          </div>
+          <div class="footer-top-link">
+            <a href="#top">BACK TO TOP &uarr;</a>
+          </div>
+        </div>
+      </footer>
+      
+      
 
     <script src="js/index.js"></script>
 

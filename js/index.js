@@ -22,3 +22,7 @@ donateBtn.addEventListener("click", () => {
   window.location.href = "https://www.paypal.me/nicoleluvzpurple";
 });
 
+
+
+
+

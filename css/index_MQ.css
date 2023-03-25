@@ -29,7 +29,11 @@
     }
 
     header{
-        width: 102%;
+        width: 107%;
+    }
+
+    #welcome{
+        width: 113%;
     }
 
     footer{
@@ -71,7 +75,11 @@
 @media screen and (max-width: 425px) {
 
     header{
-        width: 109%;
+        width: 115%;
+    }
+
+    #welcome{
+        width: 122%;
     }
 
     .flexItem {
@@ -101,8 +109,12 @@
     }
 
     header{
-        width: 111%;
+        width: 119%;
         margin: -2% 0% 0 -3%;;
+    }
+
+    #welcome{
+        width: 126%;
     }
 
     #email-img, #donate-img{
@@ -114,8 +126,12 @@
 @media screen and (max-width: 320px) {
 
     header{
-        width: 120%;
+        width: 129%;
         margin: -5% 0% 0 -4%;
+    }
+
+    #welcome{
+        width: 136%;
     }
 
     #gitHubLink{

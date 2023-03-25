@@ -48,6 +48,16 @@ header{
     text-decoration: none;
 }
 
+/*===========================
+            WELCOME
+============================*/
+
+#welcome{
+    background-color: white;
+    border:#c508eb;
+    text-align: center;
+}
+
 
 /*=================================
 Making a two column about me section

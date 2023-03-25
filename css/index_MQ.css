@@ -8,14 +8,17 @@
 
 }
 
-
-@media screen and (max-width: 768px) {
-   
+@media only screen and (max-width: 768px) {
 
     #headerNav{
         font-size: 14px;
     }
-}
+
+    footer {
+      height: auto;
+      flex-direction: column;
+    }
+  }
 
 
 
@@ -23,6 +26,14 @@
     
     body{
         margin: 0% 1% 0% -1%;
+    }
+
+    header{
+        width: 102%;
+    }
+
+    footer{
+        width: 88%;
     }
 
     .flexItem {
@@ -36,7 +47,7 @@
     }
 
     .flexItem2nd {
-        width: 90%;
+        width: 77%;
         padding: 10%;
     }
 
@@ -59,8 +70,8 @@
 
 @media screen and (max-width: 425px) {
 
-    #top{
-        width: 112%;
+    header{
+        width: 109%;
     }
 
     .flexItem {
@@ -75,13 +86,11 @@
         width: 107%;
     }
 
-    #footerNav{
-        margin-right: -19%;
+    footer{
+        width: 105%;
     }
 
-    /* #copyright {
-        margin-left: 20%;
-    } */
+
 }
 
 
@@ -90,14 +99,30 @@
     body{
         margin-right:15%;
     }
+
+    header{
+        width: 111%;
+        margin: -2% 0% 0 -3%;;
+    }
+
+    #email-img, #donate-img{
+        width: 85%;
+        margin: 4%;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    #gitHubLink{
-       font-size: small;
-   }
-    #aboutMe{
-     font-size: 7vw;
+
+    header{
+        width: 120%;
+        margin: -5% 0% 0 -4%;
     }
+
+    #gitHubLink{
+        font-size: small;
+    }
+     #aboutMe{
+      font-size: 7vw;
+     }
    
 }

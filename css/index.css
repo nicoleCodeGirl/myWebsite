@@ -17,17 +17,18 @@ body{
     margin-left: 2%;
     margin-right: -3%;
 }
-
+/*===========================
+            HEADER
+============================*/
 
 
 header{
     padding: 3%;
     background-color: pink;
     height: 85px;
-    margin: 0%;
-    border: 13px brown solid; 
-    
-}
+    margin: -2% 0 0 -2%;
+    border: 13px brown solid;
+    }
 
 #headerLogo{
     float:left;
@@ -37,6 +38,9 @@ header{
 #headerNav{
     color: purple;
     font-size: 15px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #headerNav a{
@@ -64,7 +68,7 @@ Making a two column about me section
 
 #profilePic {
     border: 25px double maroon;
-    /* margin: 1% auto 1% 15%; */
+    width: fit-content;
 }
 
 
@@ -88,26 +92,6 @@ div.jewelry img{
     padding: 4%;
     margin: 1%;
 }
-
-/*==============================
-            DONATE
-================================*/
-
-
-.donation-container {
-    padding: 1%;
-    background-color: lightcyan;
-    text-align: center;
-    margin: 1%;
-    box-shadow: inset -17px -18px 9px -5px #90e7c1, inset 17px 18px 9px -5px #afe8df;
-    border: 13px pink double;
-  }
-  
-  #donate-img {
-    cursor: pointer;
-    width: 50%;
-  }
-  
  
   
 
@@ -208,50 +192,110 @@ div.jewelry img{
     color:purple;
 }
 
-  /*==============================
-                MESSAGE BOX
-  ================================*/
+  /*===================================================
+               ABOVE FOOTER - EMAIL & DONATE BUTTONS 
+  ====================================================*/
 
-  #messageBox{
+  #aboveFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     box-shadow: inset -11px -14px 9px 4px rgb(119 20 221), inset 17px 24px 9px -2px rgb(0 212 255);
     padding: 3%;
     border: 7px double #787dde;
     background-color: #f5eaef;
   }
 
-
-
+  #aboveFooter H3{
+    color: red;
+  }
+    #donate-img {
+     cursor: pointer;
+  }
+  
+  #emailMe, #donate{
+    margin: 3%;
+  }
 
 
 /*==============================
             FOOTER
 ================================*/
 
-footer{
-    background-color: brown;
-    color:white;
-    margin-bottom: -10px;
-    height: 45px;
-    padding: 5px;
-    margin-top:10px;
-    width: 104%;
-    margin-left: -20px; 
+footer {
     display: flex;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc1cb;;
+    padding: 40px;
+    position: relative;
+    color: maroon;
+    
+  }
 
-#myCopyright{
-    margin-left: 5%;
-}
+ 
+  footer a{
+    color: purple;
+    text-decoration: none;
+  }
 
-#footerNav{
-    display: inline-flex;
-    padding-right: 40px;
-    margin-right: 10%;
-    width: 100%;
-    align-content: space-between;
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-menu {
+    flex: 1;
+    display: flex;
     justify-content: space-around;
-}
+    padding-right: 20px;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-menu li {
+    margin-right: 20px;
+  }
+  
+  
+  .footer-line {
+    height: 1px;
+    width: 100%;
+    background-color: maroon;
+    margin: 10px 0;
+  }
+  
+  .footer-social-media {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    flex-wrap: wrap;
+  }
 
-#footerNav a{
-    color:rgb(246, 200, 230);
-}
+  .footer-social-media ul{
+    list-style: none;
+  }
+  
+  .footer-social-media li {
+    margin-right: 0;
+    margin-bottom: 10px;
+   
+  }
+  
+  .footer-social-media a {
+    display: flex;
+    align-items: center;
+    color: purple;
+    text-decoration: none;
+  }
+  
+  .footer-social-media a ion-icon {
+    margin-right: 5px;
+  }
+  

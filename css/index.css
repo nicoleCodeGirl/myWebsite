@@ -84,9 +84,16 @@ Making a two column about me section
   }
 
 #profilePic {
-    border: 25px double maroon;
-    width: fit-content;
-}
+        display: block;
+        margin: auto;
+        text-align: center;     
+        border-radius: 50%;
+        border: 10px solid transparent;
+        background-clip: padding-box;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        background-image: linear-gradient(to bottom right, magenta, #dd568f, maroon, pink, #f475e1, green, purple);
+        padding: 15px;
+          }
 
 
 .sections{
@@ -318,5 +325,45 @@ footer {
   
   .footer-social-media a ion-icon {
     margin-right: 5px;
+  }
+  
+
+
+
+
+  .butterfly {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid pink;
+    border-right: 100px solid pink;
+    position: relative;
+  }
+  
+  .butterfly::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid white;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    transform: rotate(45deg);
+  }
+  
+  .butterfly::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 100px solid white;
+    position: absolute;
+    top: -50px;
+    right: -100px;
+    transform: rotate(-45deg);
   }
   

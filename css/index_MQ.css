@@ -71,6 +71,11 @@
    .mainContent{
     width: 100%;
    }
+
+   #aboutLogo, #butterflyWoman{
+    height: auto;
+    width: 40%;
+   }
 }
 
 
@@ -149,6 +154,10 @@
 
      #content{
         width: 124%;
+     }
+
+     #myStore, #comingSoon{
+        font-size: 25px;
      }
    
 }

@@ -1,20 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
 
 
 body{
     background-color: brown;
     color: maroon;
-    /* font-family: 'Permanent Marker', cursive; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin:0%;
     font-size: large;
 }
 
-#content{
+/* #content{
     border: 20px solid brown;
     background-color:  rgb(237, 222, 199);
     background-image: url("../photos/pinkGradient.jpg");
@@ -22,20 +18,22 @@ body{
     padding: 3% 3% 3% 3%;
     margin-left: 2%;
     margin-right: -3%;
-}
+} */
 /*===========================
             HEADER
 ============================*/
 
 
 header{
+    width: 100%;
     padding: 3%;
     background-color: pink;
-    margin: -2% 0 0 -2%;
+    margin: 0 0 0 -1%;
     border: 13px brown solid;
-    }
+}
 
-#headerLogo{
+
+#aboutLogo{
     float:left;
 }
 
@@ -58,6 +56,8 @@ header{
     text-decoration: none;
 }
 
+
+
 /*===========================
             WELCOME
 ============================*/
@@ -66,28 +66,12 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #ffffffd9;
+    background-image: url("../photos/pinkGradient.jpg");
+    background-size:cover;
     border: #c508eb;
     text-align: center;
     padding: 3%;
 }
-
-
-/*=================================
-Making a two column about me section
-================================*/
-
-.flex-container {
-    display: flex;
-  }
-
-.flexItem{
-    width: 50%;
-    background-color: #eaadc4;
-    line-height: 2;
-    padding: 4%;
-    margin: 1%;
-    box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
-  }
 
 #profilePic {
     height: 100%;
@@ -97,14 +81,31 @@ Making a two column about me section
     padding: 9px;
     width: 15%;
 }
+
+
+/*=================================
+Making a two column about me section
+================================*/
+.mainContent{
+    background-color: #eaadc4;
+    line-height: 2;
+    padding: 4%;
+    margin: 1%;
+    box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
+  }
+
+
+
+#butterflyWoman{
+    float:left;
+    margin: 2%;
+}
          
 
 
 .sections{
     color: red;
     padding:3%;
-    /* margin: 5px; */
-    /* font-weight: 400; */
 }
 
 h2{
@@ -123,6 +124,32 @@ h2{
 div.jewelry img{
     padding: 4%;
     margin: 1%;
+}
+
+#myStore{
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(246, 240, 247);
+    background-color: #f328d1;
+    padding: -9px;
+    margin: 0;
+    letter-spacing: -2px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.8);
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.2)
+}
+
+#comingSoon{
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    color: yellow;
+    background-color: #9732da;
+    padding: -9px;
+    margin: 0;
+    letter-spacing: -2px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.8);
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
 }
  
   
@@ -167,6 +194,11 @@ div.jewelry img{
 /*==============================
             SKILLS
 ================================*/
+
+.flex-container{
+    display:flex;
+}
+
 #skills ul, #experience + h2{
     text-transform: uppercase;
     color:purple;
@@ -236,6 +268,7 @@ div.jewelry img{
     padding: 3%;
     border: 7px double #787dde;
     background-color: #f5eaef;
+    margin-bottom: 2%;
   }
 
   #aboveFooter H3{

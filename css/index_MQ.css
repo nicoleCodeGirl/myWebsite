@@ -68,7 +68,9 @@
     #messageBox{
         padding: 10%;
     }
-   
+   .mainContent{
+    width: 100%;
+   }
 }
 
 
@@ -96,6 +98,10 @@
 
     footer{
         width: 105%;
+    }
+
+    .mainContent{
+        padding: 10%;
     }
 
 
@@ -139,6 +145,10 @@
     }
      #aboutMe{
       font-size: 7vw;
+     }
+
+     #content{
+        width: 124%;
      }
    
 }

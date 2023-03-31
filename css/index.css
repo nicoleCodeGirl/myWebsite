@@ -31,7 +31,6 @@ body{
 header{
     padding: 3%;
     background-color: pink;
-    height: 85px;
     margin: -2% 0 0 -2%;
     border: 13px brown solid;
     }
@@ -40,6 +39,11 @@ header{
     float:left;
 }
 
+
+#top{
+    color: purple;
+    font-size: 15px;
+}
 
 #headerNav{
     color: purple;
@@ -59,8 +63,10 @@ header{
 ============================*/
 
 #welcome{
-    background-color: white;
-    border:#c508eb;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffd9;
+    border: #c508eb;
     text-align: center;
     padding: 3%;
 }
@@ -84,16 +90,14 @@ Making a two column about me section
   }
 
 #profilePic {
-        display: block;
-        margin: auto;
-        text-align: center;     
-        border-radius: 50%;
-        border: 10px solid transparent;
-        background-clip: padding-box;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        background-image: linear-gradient(to bottom right, magenta, #dd568f, maroon, pink, #f475e1, green, purple);
-        padding: 15px;
-          }
+    height: 100%;
+    background-clip: padding-box;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom right, magenta, #dd568f, maroon, pink, #f475e1, green, purple);
+    padding: 9px;
+    width: 15%;
+}
+         
 
 
 .sections{

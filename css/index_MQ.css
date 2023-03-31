@@ -18,7 +18,17 @@
       height: auto;
       flex-direction: column;
     }
+
+    #webDevelopment-container {
+      flex-direction: column;
+    }
+  
+    .iframe-wrapper {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
   }
+  
 
 
 
@@ -93,12 +103,20 @@
         width: 96%;
     }
 
+    .flexItem2nd {
+        width: 86%;
+    }
+
     #content{
         width: 110%;
     }
 
     .donation-container {
         width: 107%;
+    }
+
+    #aboveFooter{
+        width: 100%;
     }
 
     footer{

@@ -10,15 +10,7 @@ body{
     font-size: large;
 }
 
-/* #content{
-    border: 20px solid brown;
-    background-color:  rgb(237, 222, 199);
-    background-image: url("../photos/pinkGradient.jpg");
-    background-size:cover;
-    padding: 3% 3% 3% 3%;
-    margin-left: 2%;
-    margin-right: -3%;
-} */
+
 /*===========================
             HEADER
 ============================*/
@@ -126,25 +118,30 @@ div.jewelry img{
     margin: 1%;
 }
 
+#webDevelopment{
+    color: rgb(241, 187, 214);
+    background-color: #138cbc;
+}
+
+#webDevelopment-container{
+    display:flex;
+    align-items: stretch;
+}
+
 #myStore{
-    font-size: 34px;
-    text-transform: uppercase;
-    text-align: center;
     color: rgb(246, 240, 247);
     background-color: #f328d1;
-    padding: -9px;
-    margin: 0;
-    letter-spacing: -2px;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.8);
-    box-shadow: 5px 5px 0px rgba(0,0,0,0.2)
 }
 
 #comingSoon{
+    color: yellow;
+    background-color: #9732da;
+}
+
+#myStore, #comingSoon, #webDevelopment{
     font-size: 34px;
     text-transform: uppercase;
     text-align: center;
-    color: yellow;
-    background-color: #9732da;
     padding: -9px;
     margin: 0;
     letter-spacing: -2px;
@@ -152,7 +149,38 @@ div.jewelry img{
     box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
 }
  
+
+/*==============================
+        IFRAME FOR RESUME
+================================*/
+.iframe-wrapper {
+    height: 75%;
+    width: 100%;
+    padding-top: 3%;
+  }
   
+  .iframe-wrapper iframe {
+    box-shadow: 0 0 10px purple, 0 0 5px pink;
+    border: 1px solid babyblue;
+    border-color: babyblue;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 10px purple, 0 0 5px pink;
+        border: 3px solid babyblue;
+        border-color: babyblue;
+  }
+
+  #webDevelopmentInfo, #webDevelopmentResume{
+    background-color: #dee8f1;
+    padding: 3%;
+    border: 3px solid #b5e6e4;
+    flex: 1;
+    margin: 1%;
+    box-shadow: inset -12px 10px 10px #e9bfeb, inset 10px -10px 5px #cdf7ea;
+  }
+  
+
+
 
 /*==============================
             EXPERIENCE
@@ -338,8 +366,6 @@ footer {
     flex: 1;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end;
-    align-items: flex-end; */
     flex-wrap: wrap;
   }
 

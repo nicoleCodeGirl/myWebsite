@@ -108,7 +108,7 @@ h2{
     padding:3%;
 }
 
-.aboutMeParagraph{
+.aboutMeParagraph, #updates-container{
     text-align: justify;
 }
 

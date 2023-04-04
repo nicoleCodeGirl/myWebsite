@@ -132,6 +132,9 @@ div.jewelry img{
     color: rgb(246, 240, 247);
     background-color: #f328d1;
 }
+figure a{
+  text-decoration: none;
+}
 
 #comingSoon{
     color: yellow;

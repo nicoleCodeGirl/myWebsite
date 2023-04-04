@@ -136,10 +136,7 @@ figure a{
   text-decoration: none;
 }
 
-#comingSoon{
-    color: yellow;
-    background-color: #9732da;
-}
+
 
 #myStore, #comingSoon, #webDevelopment{
     font-size: 34px;
@@ -150,6 +147,12 @@ figure a{
     letter-spacing: -2px;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.8);
     box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+#comingSoon{
+  color: yellow;
+  background-color: #9732da;
+  margin-top:3%;
 }
  
 
@@ -432,4 +435,37 @@ footer {
     right: -100px;
     transform: rotate(-45deg);
   }
+
+
+
+
+  table {
+    border-collapse: collapse;
+    box-shadow: 2 0 10px rgb(156, 156, 242);
+    background-color: white;
+    border: 2px solid black;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+  }
+  th{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+  }
+
+  caption {
+    background-color: rgb(94, 94, 233);
+    color: white;
+    font-weight: normal;
+  }
   
+  #products{
+    display: flex;
+    flex-direction: row;
+  }

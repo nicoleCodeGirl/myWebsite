@@ -80,6 +80,7 @@
     }
    .mainContent{
     width: 100%;
+    padding: 8%;
    }
 
    #aboutLogo, #butterflyWoman{
@@ -124,7 +125,7 @@
     }
 
     .mainContent{
-        padding: 10%;
+        padding: 13%;
     }
 
 

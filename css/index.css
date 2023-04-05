@@ -137,6 +137,14 @@ figure a{
 }
 
 
+/*============================
+      MY STORE
+==============================*/
+
+#storeLink{
+  text-decoration: none;
+}
+
 
 #myStore, #comingSoon, #webDevelopment{
     font-size: 34px;
@@ -466,6 +474,21 @@ footer {
   }
   
   #products{
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-evenly; */
+  }
+  
+
+  #sticker_products, #mug_products{
+    flex: 1;
+    background-color: #babfee;
+    border: 2px solid magenta;
+    padding: 3%;
+    width: 90%;
+  }
+
+  #stickers-container, #mugs-container{
     display: flex;
     flex-wrap: wrap;
   }

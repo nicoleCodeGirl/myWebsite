@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body{
-    background-color: brown;
+    /* background-color: brown; */
     color: maroon;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    margin:0%;
-    font-size: large;
+    /* margin:0%;
+    font-size: large; */
 }
 
 
@@ -15,27 +19,92 @@ body{
             HEADER
 ============================*/
 
+/*Hamburger menu followed from 
+https://www.youtube.com/watch?v=flItyHiDm7E&t=4s   
+*/
+
 
 header{
-    width: 100%;
-    padding: 3%;
-    background-color: pink;
-    margin: 0 0 0 -1%;
-    border: 13px brown solid;
+    /* width: 100%;
+    padding: 3%; */
+    /* background-color: pink; */
+    background-color: #262626;
+    /* margin: 0 0 0 -1%;
+    border: 13px brown solid; */
+}
+
+li{
+  list-style-type: none;
+}
+
+.nav-item a, .nav-branding{
+  color:white;
+  text-decoration: none;
+}
+
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  flex-wrap: wrap;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding{
+  font-size: 2rem;
+}
+
+/* the transition is for the hover effect*/
+.nav-link{
+  transition: 0.7s ease;
+}
+
+.nav-link:hover{
+  color: dodgerblue;
+}
+
+.hamburger{
+  display:none;
+  cursor: pointer;
 }
 
 
-#aboutLogo{
-    float:left;
+.bar{
+  position: relative;
+  /* top: -183px;
+  right: -270px; */
+  top: -52px;
+  right: -315px;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
 }
 
+
+
+/*=============================
+      RETURN TO TOP
+==============================*/
 
 #top{
-    color: purple;
-    font-size: 15px;
+  color: purple;
+  font-size: 15px;
 }
 
-#headerNav{
+
+/* #headerNav{
     color: purple;
     font-size: 15px;
     display:flex;
@@ -46,7 +115,7 @@ header{
 #headerNav a{
     margin: auto 3% auto 3%;
     text-decoration: none;
-}
+} */
 
 
 
@@ -78,6 +147,14 @@ header{
 /*=================================
 Making a two column about me section
 ================================*/
+
+#aboutLogo{
+  float:left;
+}
+
+
+
+
 .mainContent{
     background-color: #eaadc4;
     line-height: 2;

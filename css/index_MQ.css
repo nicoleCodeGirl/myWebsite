@@ -1,6 +1,52 @@
 
 @media screen and (max-width: 2560px) {
 
+/*==============================
+        hamburger menu
+================================*/
+.hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    /* position: fixed; */
+    position: absolute;
+    right: -105%;
+    top: 0%;
+    gap: 0;
+    flex-direction: column;
+    background-color: #5b3d5a;
+    width:105%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+      right: -11px;
+}   
+
+.bar{
+    right: -45%;
+}
+
+
+
 #content{
     margin-left: 0%;
     margin-right: auto;
@@ -9,10 +55,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-
-    /* #headerNav{
-        font-size: 14px;
-    } */
 
     footer {
       height: auto;
@@ -29,56 +71,13 @@
     }
 
 
-/*hamburger menu*/
-    .hamburger{
-      display: block;
-    }
-  
-    .hamburger.active .bar:nth-child(2){
-      opacity: 0;
-    }
-  
-    .hamburger.active .bar:nth-child(1){
-      transform: translateY(8px) rotate(45deg);
-    }
-  
-    .hamburger.active .bar:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg);
-    }
-  
-    .nav-menu{
-      position: fixed;
-      position: absolute;
-      /* left: -100%; */
-      right: -105%;
-      /* top: 70px; */
-      top: 167px;
-      gap: 0;
-      flex-direction: column;
-      /* background-color: #262626; */
-      background-color: #5b3d5a;
-      width:105%;
-      text-align: center;
-      transition: 0.3s;
-    }
-  
-    .nav-item{
-      margin: 16px 0;
-    }
-  
-    /* .nav-menu.active{
-      
-      right: 0;
-    } */
-    .nav-menu.active {
-        /* left: 0; */
-        right: -44px;
+
 }
   
 
 @media screen and (max-width: 640px) {
     .bar {
-        right: -272px;   
+        right: -33%;
     }
 }
 
@@ -90,15 +89,11 @@
     }
 
     header{
-        width: 107%;
+        width: 109%;
     }
 
-    .bar {
-        right: -207px;   
-    }
-
-    .nav-menu {
-        right: -117%;
+    .nav-menu.active {
+        right: -42px;
     }
 
     #welcome{
@@ -156,8 +151,25 @@
 
 @media screen and (max-width: 425px) {
 
-    header{
-        width: 115%;
+    header {
+        width: 122%;
+    }
+
+    .nav-menu.active {
+        right: -88px;
+    }
+
+    .nav-menu {
+        width: 111%;
+    }
+
+    #content{
+        width: 110%;
+    }
+
+    .mainContent{
+        padding: 13%;
+        width: 122%;
     }
 
     #welcome{
@@ -169,30 +181,22 @@
     }
 
     .flexItem2nd {
-        width: 99%;
+        width: 109%;
     }
 
-    #content{
-        width: 110%;
-    }
+    
 
     .donation-container {
         width: 107%;
     }
 
     #aboveFooter{
-        width: 100%;
+        width: 110%;
     }
 
     footer{
-        width: 105%;
+        width: 122%;
     }
-
-    .mainContent{
-        padding: 13%;
-    }
-
-
 }
 
 
@@ -207,6 +211,14 @@
         margin: -2% 0% 0 -3%;;
     }
 
+    .nav-branding {
+        font-size: 1.25rem;
+    }
+
+    .nav-menu {
+        width: 124%;
+    }
+
     #welcome{
         width: 126%;
     }
@@ -216,13 +228,7 @@
         margin: 4%;
     }
 
-    .bar {
-        right: -177px;
-    }
-
-    .nav-menu {
-        top: 137px;
-    }
+   
 }
 
 @media screen and (max-width: 320px) {
@@ -231,9 +237,14 @@
         width: 129%;
         margin: -5% 0% 0 -4%;
     }
+    
 
-    #welcome{
-        width: 136%;
+    .nav-menu {
+        width: 129%;
+    }
+
+    #welcome {
+        width: 125%;
     }
 
     #gitHubLink{
@@ -255,7 +266,10 @@
 
 
 @media screen and (max-width: 309px) {
-.nav-menu {
-    right: -111%;
-}
+
+   
+
+    .nav-menu {
+        width: 130%;
+    }
 }

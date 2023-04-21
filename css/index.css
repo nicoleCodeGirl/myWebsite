@@ -6,12 +6,9 @@
   box-sizing: border-box;
 }
 body{
-    /* background-color: brown; */
     color: maroon;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    /* margin:0%;
-    font-size: large; */
 }
 
 
@@ -25,12 +22,7 @@ https://www.youtube.com/watch?v=flItyHiDm7E&t=4s
 
 
 header{
-    /* width: 100%;
-    padding: 3%; */
-    /* background-color: pink; */
     background-color: #262626;
-    /* margin: 0 0 0 -1%;
-    border: 13px brown solid; */
 }
 
 li{
@@ -52,22 +44,31 @@ li{
 }
 
 .nav-menu{
-  display: flex;
+  display:none;
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+}
+
+.nav-menu.active{
+  display: flex;
 }
 
 .nav-branding{
   font-size: 2rem;
 }
 
-/* the transition is for the hover effect*/
-.nav-link{
+
+
+/*======================================
+ the transition is for the hover effect
+ ========================================*/
+
+.nav-item{
   transition: 0.7s ease;
 }
 
-.nav-link:hover{
+.nav-item:hover{
   color: dodgerblue;
 }
 

@@ -105,20 +105,6 @@ li{
 }
 
 
-/* #headerNav{
-    color: purple;
-    font-size: 15px;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#headerNav a{
-    margin: auto 3% auto 3%;
-    text-decoration: none;
-} */
-
-
 
 /*===========================
             WELCOME
@@ -160,6 +146,7 @@ Making a two column about me section
     background-color: #eaadc4;
     line-height: 2;
     padding: 4%;
+    padding-bottom: 8%;
     margin: 1%;
     box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
   }

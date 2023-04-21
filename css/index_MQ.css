@@ -184,6 +184,11 @@
         width: 109%;
     }
 
+
+    div.jewelry img {
+        width: 50%;
+    }
+
     
 
     .donation-container {
@@ -228,6 +233,11 @@
         margin: 4%;
     }
 
+    .video-container {
+        box-shadow: -14px 12px 15px #0077FF, 13px -13px 20px 1px #0077FF;
+        width: 270px;
+        height: 270px
+    }
    
 }
 
@@ -261,13 +271,28 @@
      #myStore, #comingSoon{
         font-size: 25px;
      }
+
+     .video-container {
+        width: 200px;
+        height: 270px;
+     }
+
+     #stickerVideo {
+        height: 64%;
+    }
+
+    div.jewelry img {
+       height: 50%;
+    }
+
+    footer {
+        width: 138%;
+    }
    
 }
 
 
 @media screen and (max-width: 309px) {
-
-   
 
     .nav-menu {
         width: 130%;

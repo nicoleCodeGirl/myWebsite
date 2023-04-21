@@ -52,10 +52,15 @@ li{
 }
 
 .nav-menu{
-  display: flex;
+  display:none;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+}
+
+.nav-menu.active{
+  display: flex;
 }
 
 .nav-branding{
@@ -63,11 +68,19 @@ li{
 }
 
 /* the transition is for the hover effect*/
-.nav-link{
+/* .nav-link{
   transition: 0.7s ease;
 }
 
 .nav-link:hover{
+  color: dodgerblue;
+} */
+
+.nav-item{
+  transition: 0.7s ease;
+}
+
+.nav-item:hover{
   color: dodgerblue;
 }
 

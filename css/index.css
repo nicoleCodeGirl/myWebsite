@@ -139,9 +139,6 @@ Making a two column about me section
   float:left;
 }
 
-
-
-
 .mainContent{
     background-color: #eaadc4;
     line-height: 2;
@@ -152,14 +149,12 @@ Making a two column about me section
   }
 
 
-
 #butterflyWoman{
-    float:left;
+    float:right;
     margin: 2%;
+    margin-bottom: 4%;
 }
          
-
-
 .sections{
     color: red;
     padding:3%;
@@ -178,10 +173,7 @@ h2{
 }
 
 
-div.jewelry img{
-    padding: 4%;
-    margin: 1%;
-}
+
 
 #webDevelopment{
     color: rgb(241, 187, 214);
@@ -193,13 +185,7 @@ div.jewelry img{
     align-items: stretch;
 }
 
-#myStore{
-    color: rgb(246, 240, 247);
-    background-color: #f328d1;
-}
-figure a{
-  text-decoration: none;
-}
+
 
 
 /*============================
@@ -208,6 +194,42 @@ figure a{
 
 #storeLink{
   text-decoration: none;
+}
+
+figure{
+  margin: 2%;
+}
+ 
+#myStore{
+  color: rgb(246, 240, 247);
+  background-color: #f328d1;
+}
+
+figure a{
+text-decoration: none;
+}
+
+.video-container {
+  box-shadow: -14px 12px 15px #0077FF, 13px -13px 20px 1px #0077FF;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #003366;
+  margin: 9% auto;
+  text-align: center;
+}
+
+.video-container h2{
+  background-color: black;
+  color: lightblue;
+}
+
+#stickerVideo{
+  width: 100%;
+  height: 84%;
+}
+
+.video-container video {
+  object-fit: cover;
 }
 
 
@@ -227,7 +249,30 @@ figure a{
   background-color: #9732da;
   margin-top:3%;
 }
- 
+
+div.jewelry img{
+  padding: 4%;
+  margin: 1%;
+  flex: 1;
+}
+
+.jewelry{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #babfee;
+    border: 2px solid magenta;
+    padding: 3%;
+    width: 99%;
+}
+
+#jewelry-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+
 
 /*==============================
         IFRAME FOR RESUME

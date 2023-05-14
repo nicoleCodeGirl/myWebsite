@@ -294,7 +294,7 @@ div.jewelry img{
         border-color: babyblue;
   }
 
-  #webDevelopmentInfo, #webDevelopmentResume{
+  #myResume{
     background-color: #dee8f1;
     padding: 3%;
     border: 3px solid #b5e6e4;
@@ -347,9 +347,7 @@ div.jewelry img{
             SKILLS
 ================================*/
 
-.flex-container{
-    display:flex;
-}
+
 
 #skills ul, #experience + h2{
     text-transform: uppercase;
@@ -364,9 +362,9 @@ div.jewelry img{
     padding: 4%;
 }
 
-/*Flex item for skills and projects*/
 
-.flexItem2nd{
+
+#projects{
     width: 50%;
     background-color: #f6e3e3;
     line-height: 2;
@@ -377,9 +375,7 @@ div.jewelry img{
   
   }
 
-  #projects ul li{
-    font-size: small;
-  }
+  
  /*================================================================
                CONNECT - This is where the list of repositiories is
   ================================================================*/
@@ -426,11 +422,12 @@ div.jewelry img{
   #aboveFooter H3{
     color: red;
   }
-    #donate-img {
+  
+  #donate-img {
      cursor: pointer;
   }
   
-  #emailMe, #donate{
+  #emailMe, #donate, #wishList{
     margin: 3%;
   }
 

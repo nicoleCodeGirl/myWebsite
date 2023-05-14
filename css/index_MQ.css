@@ -107,11 +107,9 @@
         padding: 11%;
     }
 
-    .flex-container {
-        flex-direction: column;
-    }
+    
 
-    .flexItem2nd {
+    .projects {
         width: 110%;
         padding: 10%;
     }
@@ -180,7 +178,7 @@
         width: 96%;
     }
 
-    .flexItem2nd {
+    .projects {
         width: 109%;
     }
 

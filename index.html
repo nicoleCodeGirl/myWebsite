@@ -26,6 +26,10 @@
 
 <body>
 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0"
+        nonce="A5zM3ecG"></script>
+
 
     <header>
         <nav class="navbar">
@@ -38,14 +42,8 @@
                 <li class="nav-item">
                     <a href='#updates'>UPDATES</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a href="#myResume">RESUME</a>
-                </li>
                 <li class="nav-item">
-                    <a href="#projects">PROJECTS</a>
-                </li> -->
-                <li class="nav-item">
-                    <a href="#myStore">STORE</a>
+                    <a href="#facebookPosts">POSTS</a>
                 </li>
                 <li class="nav-item">
                     <a href="#donate">DONATE</a>
@@ -64,26 +62,16 @@
 
 
     </header>
-<!-- 
-    <div id="welcome">
-        <div>
-            <img id="profilePic" class="butterfy" src="photos/photoNicole.jpeg" alt="photo of Nicole" width="275"
-                height="275">
-        </div>
-
-        <div id="top">
-            <h2>Nicole's Portfolio</h2>
-            <h3>Web Developer</h3>
-        </div>
-    </div> -->
 
 
-        <div class="mainContent">
+    <div class="mainContent">
+
+
+       
+        <iframe id="fbPage" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnicolecodegirl.creations&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+   
+        <div id="aboutContainer">
             <div>
-                <!-- <img id="aboutLogo" src="photos/nicoleCodeGirl_logo.png" alt="logo" width="275" height="275"> -->
-                <img id="aboutLogo" src="photos/NicoleCodeGirlCreationsLogo.png" alt="logo" width="275" height="275">
-
-
                 <h2 id="aboutMe" class="aboutMeH2">ABOUT ME:</h2>
                 <p class="aboutMeParagraph"> Hi, I'm Nicole, a.k.a. NicoleCodeGirl. I am working
                     hard to achieve my dream. I am proud to
@@ -95,272 +83,133 @@
                     next challenge.</p>
             </div>
 
+
             <div>
                 <!-- <img id="butterflyWoman" src="photos/butterflyWoman.jpeg" alt="butterfly woman" width="250"
                     height="250"> -->
                 <h2 class="aboutMeH2">ABOUT THE SITE:</h2>
-                <p class="aboutMeParagraph"> I made this website with HTML, CSS, and JavaScript, and deployed it via Cloudfare.
+                <p class="aboutMeParagraph"> I made this website with HTML, CSS, and JavaScript, and deployed it via
+                    Cloudfare.
                     I taught myself how to deploy a website by doing research and watching videos online.
-                    I am selling personalized beaded bracelets and stickers. Please see below.  
+                    I am selling personalized beaded bracelets and stickers. Please like my page and follow me. Thank
+                    you!
                 </p>
             </div>
-        </div><!--end div mainContent (first flex item)-->
 
-        <div class="mainContent">
+        </div>
+    </div><!--end div mainContent (first flex item)-->
+
+    <div class="mainContent">
+        <div>
+            <div id="updates-container">
+                <h2 id="updates">UPDATES:</h2>
+                <h4>May 27, 2023</h4>
+                <p>I am no longer using the printify store. I have my own machines and supplies and will be doing my own
+                    printing,
+                    cutting, packaging, and mailing. Please go to my <a
+                        href="http://www.facebook.com/nicolecodegirl.creations">FACEBOOK</a>
+                    to see all my updates, images, and videos that I post. You can also send me an
+                    <a href="mailto: nicolecodegirl@gmail.com">EMAIL</a>.
+                </p>
+                <p>I am able to make custom orders. For the stickers, just tell me the size, and describe to me your
+                    suggestions on the design.
+                    You can also send me photos of your loved ones and pets and I can make stickers out of your images
+                    as well. As for the bead-woven
+                    bracelets, I can put up to two words and a heart, or one word and two hearts on a bracelet. I can do
+                    a bracelet that is all hearts, or all
+                    stripes in your color choice, or you can ask me about patterns and I'll let you know if I can do it.
+                </p>
+
+            </div><!--end div for updates-->
+
+
+
+        </div>
+
+
+    </div> <!--end web development container-->
+
+
+    <!-- </div> -->
+    </div>
+
+
+    </div><!--end div mainContent (second flex item))-->
+
+    <div class="mainContent">
+        <div>
+
             <div>
-                <div id="updates-container">
-                    <h2 id="updates">UPDATES:</h2>
-                    <h4>April 3,2023</h4>
-                    <p>I have a printify store <a
-                            href="https://nicolecodegirls-store.printify.me/product/196445/tech-girl-ceramic-mug-11oz">here</a> for kiss-cut stickers and mugs.
-                        I have to enter orders manually so all orders should be made via 
-                        <a href="mailto: nicolecodegirl@gmail.com">EMAIL</a> and 
-                        <a href="http://www.facebook.com/nicolecodegirl.creations">FACEBOOK</a>.</p>
-                    
-                </div><!--end div for updates-->
-
-
-                <!-- <div>
-                   
-                        <h2>SERVICES:</h2>
-                        <H4 id="webDevelopment">Web Development</H4>
-
-                        <div id="webDevelopment-container"> -->
-                            <!--this is a flex container-->
-
-                            <!-- <div id="myResume">
-                                <p>I am looking for a career in web development. You can view my resume here:
-                                    <a
-                                        href="https://docs.google.com/document/d/1I3ocJhs7XfjQ5yQ59Eert1Etk-zfELsoQPLbJI7ZpPs/edit?usp=sharing">MY
-                                        RESUME</a>
-                                </p>
-                                <div class="iframe-wrapper">
-                                    <iframe
-                                        src="https://drive.google.com/file/d/1I3ocJhs7XfjQ5yQ59Eert1Etk-zfELsoQPLbJI7ZpPs/preview"
-                                        allowfullscreen></iframe> -->
-                                <!-- </div> -->
-                                <!--end iframe wrapper-->
-
-                            <!-- </div> -->
-                            <!--end myResume-->
-
-            
-                    
-                                <!-- <div id="projects">
-                                    <h2>GitHub Projects</h2>
-                                    <h3>Wiki Pages</h3>
-                                    <ul>
-                                        <li><a href="https://github.com/nicoleCodeGirl/GreetingsWorld/wiki">Greetings World</a></li>
-                                        <li><a
-                                                href="https://github.com/nicoleCodeGirl/intro-to-programming-dorado/wiki">Intro-to-programming-dorado</a>
-                                        </li>
-                                    </ul>
-                    
-                                    <h3>Learning Debugging</h3>
-                    
-                                    <ul>
-                                        <li><a
-                                                href="https://github.com/nicolecodegirl/intro-to-programming-section-5">Intro-to-programming-section-5</a>
-                                        </li>
-                                    </ul>
-                    
-                                    <h3>Games</h3>
-                                    <p>This is just the code</p>
-                                    <ul>
-                                        <li><a href="https://github.com/nicolecodegirl/memoryGame">Memory Game</a></li>
-                                    </ul> -->
-                                </div>
-                    
-
-                        </div> <!--end web development container-->
-
-                  
-                <!-- </div> -->
+                <h4 id="facebookPosts">FACEBOOK POSTS</h4>
             </div>
 
+            <div id="posts">
 
-        </div><!--end div mainContent (second flex item))-->
+                <iframe class="posted"
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnicolecodegirl.creations%2Fposts%2Fpfbid0QJCQey1mYmxFcv4jjUbrqGkTFJX2UBMPWESJoVJgwjHY53rTv6DVA4NhKrQxEYoBl&show_text=true&width=500"
+                    width="500" height="609" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
-            <div class="mainContent">
-                <div>
-                    <div>
-                        <a href="https://nicolecodegirls-store.printify.me/products" id="storeLink">
-                            <h4 id="myStore">MY STORE</h4>
-                        </a>
+                <iframe class="posted"
+                    src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fnicolecodegirl.creations%2Fvideos%2F6337215509673156%2F&show_text=true&width=267&t=0"
+                    width="500" height="609" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowFullScreen="true"></iframe>
 
-                        <p>If you want a sticker or mug, contact me via email <a
-                                href="mailto: nicolecodegirl@gmail.com">here</a>, and all payments will be made
-                            via Paypal.Let me know here which item(s) you want and you can send payment <a
-                                href="https://www.paypal.me/nicoleluvzpurple">here</a></p>
-                        <p>Products only ship to the USA. Prices are subject to change depending on availability and
-                            print providers.</p>
+                <iframe class="posted"
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnicolecodegirl.creations%2Fposts%2Fpfbid02g8KpzLXo5gWs7sPKZmQ2z7nn5348vZ95FCG1C68hCkVBbAZNcPd9xavmC4F7HVJrl&show_text=true&width=500"
+                    width="500" height="609" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
-                    </div>
-                    <div id="products">
-
-                        <div id="sticker_products">
-                            <div id="stickers-container">
-
-                                <figure>
-                                    <a href="https://nicolecodegirls-store.printify.me/product/134995">
-                                        <img src="photos/mockup1.jpeg" alt="sticker" width="200" height="200">
-                                        <figcaption>Friends Forever Sticker </figcaption>
-                                    </a>
-                                </figure>
-
-                                <figure>
-                                    <a href="https://nicolecodegirls-store.printify.me/product/196334">
-                                        <img src="photos/techGirl_sticker_mockup.jpeg" alt="sticker" width="200"
-                                            height="200">
-                                        <figcaption>Tech Girl Sticker </figcaption>
-                                    </a>
-                                </figure>
+                <iframe class="posted"
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnicolecodegirl.creations%2Fposts%2Fpfbid0dSA2UyoLnXBYyQV85bgH13NpaXG3EvWyvvPJs8kZtXowogtByLPobeYAL5p2TGrzl&show_text=true&width=500"
+                    width="500" height="609" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div><!--end posts-->
+        </div>
 
 
-                            </div><!--end stickers-->
 
-                            <table>
-                                <caption>Kiss-Cut Sticker Prices</caption>
-                                <tr>
-                                    <th>Description</th>
-                                    <th colspan="2">Amount</th>
-                                </tr>
-                                <tr>
-                                    <td>Sizes</td>
-                                    <td>2" x 2"</td>
-                                    <td>3" x 3"</td>
-                                </tr>
-                                <tr>
-                                    <td>Subtotal</td>
-                                    <td>USD $2.78</td>
-                                    <td>USD $3.08</td>
-                                </tr>
-                                <tr>
-                                    <td>Shipping</td>
-                                    <td>USD $4.29</td>
-                                    <td>USD $4.29</td>
-                                </tr>
-                                <tr>
-                                    <td>Taxes</td>
-                                    <td>USD $0.60</td>
-                                    <td>USD $0.63</td>
-                                </tr>
-                                <tr>
-                                    <td>Total</td>
-                                    <td>USD $7.67</td>
-                                    <td>USD $8.00</td>
-                                </tr>
-                            </table>
+        <div>
+            <div>
+                <h4 id="comingSoon">PERSONALIZED JEWELRY</h4>
+                <h2>Personalized Bead-woven Bracelets $18 <span id="braceletSpan">(FREE SHIPPING WITHIN THE USA)</span>
+                </h2>
 
-                            <div class="video-container">
-                                <h2>Unveiling of Sticker</h2>
-                                <video id="stickerVideo" controls>
-                                    <source src="/videos/stickerDemo.mp4" type="video/mp4"> 
-                                    <!-- <source src="video.webm" type="video/webm"> -->
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
+                <p>Two ways to contact me:
+                    <a href="mailto: nicolecodegirl@gmail.com">EMAIL</a> and
+                    <a href="http://www.facebook.com/nicolecodegirl.creations">FACEBOOK</a>
 
+                <P>I can add up to 2 names per bracelet. Choose background color: red, orange, yellow, green, lt blue,
+                    dk blue, lavender, white, black.</P>
+                <p>I ship free in the USA. But if you are overseas you will have to cover the cost because it is too
+                    expensive for me to ship international.
+                    Shipping costs will be calculated at the time of shipping.</p>
+                </p>
+                <hr />
+                <p>I dont have an actual eCart for orders. So, transactions will be made via email or facebook in the
+                    links above, and payments can be made via
+                    <a href="https://cash.app/$nicolecodegirl">CashApp</a>,
+                    <a href="https://www.paypal.com/paypalme/nicolecodegirl/">PayPal</a>, Chime: $Nicolecodegirl, or
+                    Zelle: @nicolecodegirl
+            </div>
 
-                        </div><!--end stickers products-->
-
-                        <div id="mug_products">
-
-                            <div id="mugs-container">
-                                <p>CERAMIC MUGS CAN BE PERSONALIZED</p>
-                                <p>When ordering, don't forget to include what you want the mug to say on the sides of
-                                    the image.</p>
-
-                                <figure>
-                                    <a
-                                        href="https://nicolecodegirls-store.printify.me/product/196445/tech-girl-ceramic-mug-11oz">
-                                        <img src="photos/techGirl_mug_mockup.jpeg" alt="mug" width="200" height="200">
-                                        <figcaption> Tech Girl (Item#TGCM1)</figcaption>
-                                    </a>
-
-                                </figure>
-                                <figure>
-                                    <a
-                                        href="https://nicolecodegirls-store.printify.me/product/196461/friends-forever-ceramic-mug-11oz">
-                                        <img src="photos/friendsForever_mug_mockup.jpeg" alt="mug" width="200"
-                                            height="200">
-                                        <figcaption> Forever Friends</figcaption>
-                                    </a>
-                                </figure>
-
-                                <figure>
-                                    <a
-                                        href="https://nicolecodegirls-store.printify.me/product/222523/tech-girl-itemtgcm2-ceramic-mug-11oz">
-                                        <img src="photos/TechGirl_CeramicMug_mockup2.jpg" alt="sticker" width="200"
-                                            height="200">
-                                        <figcaption>Tech Girl (Item#TGCM2)</figcaption>
-                                    </a>
-                                </figure>
-
-                            </div><!--end mugs container-->
-
-                            <table>
-                                <caption>11oz Ceramic Mug Prices</caption>
-                                <tr>
-                                    <th>Description</th>
-                                    <th>Amount</th>
-                                </tr>
-                                <tr>
-                                    <td>Subtotal</td>
-                                    <td>USD $9.26</td>
-                                </tr>
-                                <tr>
-                                    <td>Shipping</td>
-                                    <td>USD $4.99</td>
-                                </tr>
-                                <tr>
-                                    <td>Taxes</td>
-                                    <td>USD $1.22</td>
-                                </tr>
-                                <tr>
-                                    <td>Total</td>
-                                    <td>USD $15.47</td>
-                                </tr>
-                            </table>
-                        </div><!--end mugs products-->
-
-                    </div><!--end products div-->
-
-
+            <div class="jewelry">
+                <div id="jewelry-container">
+                    <img src="photos/NicoleCodeGirl Creations QR Code.png" alt="bracelets">
+                    <!-- <img src="photos/necklaces.jpg" alt="necklaces" width="350" height="350"> -->
                 </div>
-
-                <div>
-                    <div>
-                    <h4 id="comingSoon">PERSONALIZED JEWELRY</h4>
-                    <h2>Personalized Bead-woven Bracelets $18 <span id="braceletSpan">(FREE SHIPPING WITHIN THE USA)</span></h2>
-
-                    <p>Two ways to contact me:
-                         <a href="mailto: nicolecodegirl@gmail.com">EMAIL</a> and 
-                         <a href="http://www.facebook.com/nicolecodegirl.creations">FACEBOOK</a>
-                    
-                    <P>I can add up to 2 names per bracelet. Choose background color: red, orange, yellow, green, lt blue, dk blue, lavender, white, black.</P>
-                    <p>I ship free in the USA. But if you are overseas you will have to cover the cost because it is too expensive for me to ship international.
-                        Shipping costs will be calculated at the time of shipping.</p>
-                    </p>
-                    <hr/>
-                    <p>I dont have an actual eCart for orders. So, transactions will be made via email or facebook in the links above, and payments can be made via
-                        <a href="https://cash.app/$nicolecodegirl">CashApp</a>,  
-                        <a href="https://www.paypal.com/paypalme/nicolecodegirl/">PayPal</a>, Chime: $Nicolecodegirl, or
-                       Zelle: @nicolecodegirl
-                    </div>
-                    
-                    <div class="jewelry">
-                        <div id="jewelry-container">
-                            <img src="photos/NicoleCodeGirl Creations QR Code.png" alt="bracelets">
-                            <!-- <img src="photos/necklaces.jpg" alt="necklaces" width="350" height="350"> -->
-                        </div>
-                    </div><!--end div for jewelry images-->
-                </div>
-            </div><!--end div mainContent (third flex item))-->
+            </div><!--end div for jewelry images-->
+        </div>
+    </div><!--end div mainContent (third flex item))-->
 
 
     <div id="content">
-       
+
 
 
         <div id="aboveFooter">
@@ -374,7 +223,7 @@
             <section>
                 <h3 id="wishList">My Wish List:</h3>
                 <a href="https://throne.com/nicolecodegirl/wishlist">
-                <img src="photos/Wishlist.png" alt="wish list" id="wishlist-img">
+                    <img src="photos/Wishlist.png" alt="wish list" id="wishlist-img">
                 </a>
             </section>
 
@@ -396,7 +245,7 @@
                 <li><a href='#updates'>UPDATES</a></li>
                 <!-- <li><a href="#myResume">RESUME</a></li>
                 <li><a href="#projects">PROJECTS</a></li> -->
-                <li><a href="#myStore">STORE</a>
+                <li><a href="#facebookPosts">POSTS</a>
                 </li>
             </ul>
         </div>

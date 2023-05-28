@@ -135,14 +135,16 @@ li{
 Making a two column about me section
 ================================*/
 
-#aboutLogo{
+#fbPage{
   float:left;
+  clear: both;
 }
+
 
 .mainContent{
     background-color: #eaadc4;
     line-height: 2;
-    padding: 4%;
+    padding: 5%;
     padding-bottom: 8%;
     margin: 1%;
     box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
@@ -192,48 +194,27 @@ h2{
       MY STORE
 ==============================*/
 
-#storeLink{
-  text-decoration: none;
+#posts {
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
-figure{
-  margin: 2%;
+iframe{
+  background-color: white;
 }
  
-#myStore{
+.posted{
+  margin: 3%;
+}
+
+#facebookPosts{
   color: rgb(246, 240, 247);
-  background-color: #f328d1;
-}
-
-figure a{
-text-decoration: none;
-}
-
-.video-container {
-  box-shadow: -14px 12px 15px #0077FF, 13px -13px 20px 1px #0077FF;
-  width: 300px;
-  height: 300px;
-  border: 2px solid #003366;
-  margin: 9% auto;
-  text-align: center;
-}
-
-.video-container h2{
-  background-color: black;
-  color: lightblue;
-}
-
-#stickerVideo{
-  width: 100%;
-  height: 84%;
-}
-
-.video-container video {
-  object-fit: cover;
+  background-color: blue;
 }
 
 
-#myStore, #comingSoon, #webDevelopment{
+#facebookPosts, #comingSoon, #webDevelopment{
     font-size: 34px;
     text-transform: uppercase;
     text-align: center;
@@ -273,75 +254,14 @@ div.jewelry img{
 
 }
 
-
-
 /*==============================
-        IFRAME FOR RESUME
-================================*/
-.iframe-wrapper {
-    height: 75%;
-    width: 100%;
-    padding-top: 3%;
-  }
-  
-  .iframe-wrapper iframe {
-    box-shadow: 0 0 10px purple, 0 0 5px pink;
-    border: 1px solid babyblue;
-    border-color: babyblue;
-        width: 100%;
-        height: 100%;
-        box-shadow: 0 0 10px purple, 0 0 5px pink;
-        border: 3px solid babyblue;
-        border-color: babyblue;
-  }
-
-  #myResume{
-    background-color: #dee8f1;
-    padding: 3%;
-    border: 3px solid #b5e6e4;
-    flex: 1;
-    margin: 1%;
-    box-shadow: inset -12px 10px 10px #e9bfeb, inset 10px -10px 5px #cdf7ea;
-  }
-  
-
-
-
-/*==============================
-            EXPERIENCE
+            BACK TO TOP
 ================================*/
 
-#experienceBox{
-    border: 12px double magenta;
-    padding: 5%;
-    background-color: #babfee;
-    margin: 2%;
-    box-shadow: inset -17px -18px 9px -5px #e790d8, inset 17px 18px 9px -5px #afe8df;
-}
-
-#experienceList{
-    display: flex; /* or inline-flex */
-    flex-direction: column;
-    justify-content:space-between;
-    gap: 5px;
-
-}
-
-#experienceList p{
-    border: 2px solid red;
-    padding: 5px;
-}
-
-#experienceList p:nth-child(odd) {
-    background: rgb(246, 200, 230);
-  }
-
-#experienceList p:nth-child(even) {
-    background: rgb(172, 219, 232);
-  }
 #back2Top{
     float:right;
 }
+
 
 
 /*==============================

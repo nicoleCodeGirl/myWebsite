@@ -272,7 +272,7 @@
         width: 124%;
      }
 
-     #facebookPosts, #comingSoon{
+     #facebookPosts, #comingSoon #shop{
         font-size: 25px;
      }
 
@@ -281,9 +281,7 @@
         height: 270px;
      }
 
-     #stickerVideo {
-        height: 64%;
-    }
+    
 
     div.jewelry img {
        height: 50%;

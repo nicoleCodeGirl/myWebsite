@@ -1,15 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-    color: maroon;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+
+body {
+  color: maroon;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
+
+/*===========================
+            FONT
+============================*/
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 
 
 /*===========================
@@ -23,15 +54,17 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* Ensure it's on top of other elements */
+  z-index: 1000;
+  /* Ensure it's on top of other elements */
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-.nav-item a, .nav-branding{
-  color:pink;
+.nav-item a,
+.nav-branding {
+  color: pink;
   text-decoration: none;
 }
 
@@ -47,7 +80,7 @@ li{
 }
 
 
-.nav-branding{
+.nav-branding {
   font-size: 2rem;
   color: white;
 }
@@ -56,7 +89,7 @@ li{
       RETURN TO TOP
 ==============================*/
 
-#top{
+#top {
   color: purple;
   font-size: 15px;
 }
@@ -67,24 +100,24 @@ li{
             WELCOME
 ============================*/
 
-#welcome{
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffffd9;
-    background-image: url("../photos/pinkGradient.jpg");
-    background-size:cover;
-    border: #c508eb;
-    text-align: center;
-    padding: 3%;
+#welcome {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffffd9;
+  background-image: url("../photos/pinkGradient.jpg");
+  background-size: cover;
+  border: #c508eb;
+  text-align: center;
+  padding: 3%;
 }
 
 #profilePic {
-    height: 100%;
-    background-clip: padding-box;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    background-image: linear-gradient(to bottom right, magenta, #dd568f, maroon, pink, #f475e1, green, purple);
-    padding: 9px;
-    width: 15%;
+  height: 100%;
+  background-clip: padding-box;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to bottom right, magenta, #dd568f, maroon, pink, #f475e1, green, purple);
+  padding: 9px;
+  width: 15%;
 }
 
 
@@ -92,25 +125,116 @@ li{
 /*=================================
         SOCIAL MEDIA 
 ================================*/
-#socialMedia{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #c508eb;
-  }
+#socialMedia {
+  /* position: absolute;
+  height: 100vh; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+}
 
-  #socialMedia blockquote{
-    margin: 0;
-    }
+.card{
+  display: flex;
+  height: 350px;
+  width: 250px;
+  cursor: pointer;
+  box-shadow: -1rem 0 3rem #000;
+  margin-left: -50px;
+  position: relative;
+  left: 0px;
+  border-radius: 10px;
+  transition: 0.4s ease-out;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, pink, blue, lavender, purple);
+}
 
-    #fbFrame{
-      margin: 3%;
-      
-    }
-  
+.title{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.bar{
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  height: 3px;
+  width: 250px;
+}
+
+.emptybar{
+  background-color: #2e3033;
+  width: 75%;
+  height: 100%;
+}
+
+.filledbar{
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  width: 0px;
+  height: 100;
+  background-color: #06f745;
+  transition: 0.4s ease-out;
+}
+
+.profile-detail{
+  width: 100%;
+  position: absolute;
+}
+
+.profile-detail img{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 20px;
+  top: 68px;
+  border-radius: 50%;
+}
+
+.profile-detail .name{
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 20px;
+  top: 156px;
+  color: #fff;
+}
+
+.profile-detail .post-title{
+  position: absolute;
+  top: 194px;
+  left: 20px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.profile-detail .post-description{
+  position: absolute;
+  top: 225px;
+  left: 20px;
+  color: #fff;
+  font-size: 10px;
+  padding-right: 60px;
+}
+
+.profileButton{
+  font-size: 10px;
+  padding: 5px 0px;
+ position: absolute;
+ top: 300px;
+ left: 20px;
+ width: 135px;
+ border: 1px solid #eef13b;
+ color: #040404;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #eef13b;
+}
 
 
 
@@ -118,33 +242,33 @@ li{
 Making a two column about me section
 ================================*/
 
-#fbPage{
-  float:left;
+#fbPage {
+  float: left;
   clear: both;
 }
 
 
-.mainContent{
-    background-color: #eaadc4;
-    line-height: 2;
-    padding: 5%;
-    padding-bottom: 8%;
-    margin: 1%;
-    box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
-  }
-
-
-
-         
-.sections{
-    color: red;
-    padding:3%;
+.mainContent {
+  background-color: #eaadc4;
+  line-height: 2;
+  padding: 5%;
+  padding-bottom: 8%;
+  margin: 1%;
+  box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
 }
 
 
 
-.aboutMeParagraph{
-    text-align: justify;
+
+.sections {
+  color: red;
+  padding: 3%;
+}
+
+
+
+.aboutMeParagraph {
+  text-align: justify;
 }
 
 
@@ -170,8 +294,10 @@ Making a two column about me section
 
 #portfolioWidgets {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Three equal columns */
-  gap: 20px; /* Add some space between the columns */
+  grid-template-columns: 1fr 1fr;
+  /* Three equal columns */
+  gap: 20px;
+  /* Add some space between the columns */
 }
 
 
@@ -182,28 +308,28 @@ Making a two column about me section
 #fbPosts {
   display: flex;
   flex-wrap: wrap;
-  
+
 }
 
-iframe{
+iframe {
   background-color: white;
 }
- 
-.posted{
+
+.posted {
   margin: 3%;
 }
 
 
 
-.contentHeadings{
+.contentHeadings {
   font-size: 34px;
   text-transform: uppercase;
   text-align: center;
-  padding: -9px;
+  /* padding: -9px; */
   margin: 3% 0;
   letter-spacing: -2px;
-  text-shadow: 2px 2px 0px rgba(0,0,0,0.8);
-  box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   color: rgb(246, 240, 247);
   background: linear-gradient(to right, pink, magenta, blue, lavender, purple);
 }
@@ -214,7 +340,8 @@ iframe{
 
 .shop-section {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-columns: 1fr 1fr;
+  /* Two equal columns */
   align-items: center;
   gap: 20px;
 }
@@ -223,14 +350,18 @@ iframe{
 #customBraceletDiv {
   text-align: center;
   margin: 0;
-  max-width: 100%; /* Set the maximum width of the grid item to 100% */
-  height: auto; /* Set the height of the grid item to auto */
+  max-width: 100%;
+  /* Set the maximum width of the grid item to 100% */
+  height: auto;
+  /* Set the height of the grid item to auto */
 }
 
 
 #customBraceletDiv img {
-  width: 100%; /* Set the image width to 100% of its container */
-  height: auto; /* Maintain the aspect ratio of the image */
+  width: 100%;
+  /* Set the image width to 100% of its container */
+  height: auto;
+  /* Maintain the aspect ratio of the image */
 }
 
 .customBraceletDetails {
@@ -240,7 +371,8 @@ iframe{
 
 .customBraceletDetails .item-title {
   font-size: 24px;
-  color: #8b008b; /* Dark magenta */
+  color: #8b008b;
+  /* Dark magenta */
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: center;
@@ -254,29 +386,35 @@ iframe{
 .customBraceletDetails .item-details {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the item details */
+  justify-content: center;
+  /* Center the item details */
   margin-bottom: 10px;
 }
 
 .customBraceletDetails .item-price {
   font-size: 25px;
-  color: #8b008b; /* Dark magenta */
+  color: #8b008b;
+  /* Dark magenta */
   text-transform: uppercase;
   margin-right: 10px;
 }
 
 .customBraceletDetails .buyButton {
   background: linear-gradient(to bottom, #8b008b, #4f4f4f);
-  padding: 20px 60px; /* Increased button padding */
-  font-size: 24px; /* Increased button font size */
+  padding: 20px 60px;
+  /* Increased button padding */
+  font-size: 24px;
+  /* Increased button font size */
   color: white;
   display: block;
   margin: 0 auto;
 }
 
 .customBraceletDetails .buyButton a {
-  text-decoration: none; /* Remove underline */
-  color: white; /* Set text color to white */
+  text-decoration: none;
+  /* Remove underline */
+  color: white;
+  /* Set text color to white */
 }
 
 #shopTikTok {
@@ -290,7 +428,8 @@ iframe{
 }
 
 #shopTikTok .tiktokShopMessage img {
-  max-width: 100px; /* Adjust as needed */
+  max-width: 100px;
+  /* Adjust as needed */
 }
 
 #shopTikTok .decorativeLine {
@@ -316,23 +455,23 @@ iframe{
           PAYMENTS
 ========================*/
 
-div.QRCode img{
+div.QRCode img {
   width: 47%;
   padding: 4%;
   margin: 1%;
   flex: 1;
 }
 
-.QRCode{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #babfee;
-    border: 2px solid magenta;
-    padding: 3%;
-    width: 99%;
+.QRCode {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #babfee;
+  border: 2px solid magenta;
+  padding: 3%;
+  width: 99%;
 }
 
-#QRCode-container{
+#QRCode-container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -343,8 +482,8 @@ div.QRCode img{
             BACK TO TOP
 ================================*/
 
-#back2Top{
-    float:right;
+#back2Top {
+  float: right;
 }
 
 
@@ -355,93 +494,97 @@ div.QRCode img{
 
 
 
-#skills ul, #experience + h2{
-    text-transform: uppercase;
-    color:purple;
+#skills ul,
+#experience+h2 {
+  text-transform: uppercase;
+  color: purple;
 }
 
 #skills ul li {
-    border: 2px solid red;
-    background-color: cornsilk;
-    display: inline-block;
-    margin: 3%;
-    padding: 4%;
+  border: 2px solid red;
+  background-color: cornsilk;
+  display: inline-block;
+  margin: 3%;
+  padding: 4%;
 }
 
 
 
-#projects{
-    text-align: center;
-    width: 50%;
-    background-color: #f6e3e3;
-    line-height: 2;
-    padding: 3%;
-    margin: 2%;
-    box-shadow: inset -17px -18px 9px 6px #c508eb, inset 17px 18px 9px 6px #6828ea;
-   
-  
-  }
+#projects {
+  text-align: center;
+  width: 50%;
+  background-color: #f6e3e3;
+  line-height: 2;
+  padding: 3%;
+  margin: 2%;
+  box-shadow: inset -17px -18px 9px 6px #c508eb, inset 17px 18px 9px 6px #6828ea;
 
-  
- /*================================================================
+
+}
+
+
+/*================================================================
                CONNECT - This is where the list of repositiories is
   ================================================================*/
 
-#socialBox{
-    display: flex;
-    border: 12px double #5997da;
-    padding: 3%;
-    background-color: #d0f1cf;
-    margin: 2% auto 2% auto;
-    box-shadow: inset -17px -18px 9px -5px #909be7, inset 17px 18px 9px -5px #3abca7;
+#socialBox {
+  display: flex;
+  border: 12px double #5997da;
+  padding: 3%;
+  background-color: #d0f1cf;
+  margin: 2% auto 2% auto;
+  box-shadow: inset -17px -18px 9px -5px #909be7, inset 17px 18px 9px -5px #3abca7;
 }
 
-#connectFlexContainer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+#connectFlexContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
-#socialBox p, #socialBox div{
-    border: 5px dotted purple;
-    margin: 3%;
-    width: 50%;
-    padding: 3%;
-    color:purple;
+#socialBox p,
+#socialBox div {
+  border: 5px dotted purple;
+  margin: 3%;
+  width: 50%;
+  padding: 3%;
+  color: purple;
 }
 
-  /*===================================================
+/*===================================================
                ABOVE FOOTER - EMAIL & DONATE BUTTONS 
   ====================================================*/
 
-  #aboveFooter{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    box-shadow: inset -11px -14px 9px 4px rgb(119 20 221), inset 17px 24px 9px -2px rgb(0 212 255);
-    padding: 3%;
-    border: 7px double #787dde;
-    background-color: #f5eaef;
-    margin-bottom: 2%;
-  }
+#aboveFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-shadow: inset -11px -14px 9px 4px rgb(119 20 221), inset 17px 24px 9px -2px rgb(0 212 255);
+  padding: 3%;
+  border: 7px double #787dde;
+  background-color: #f5eaef;
+  margin-bottom: 2%;
+}
 
-  #aboveFooter H3{
-    color: red;
-  }
-  
-  #donate-img {
-     cursor: pointer;
-  }
-  
-  #emailMe, #donate, #wishList{
-    margin: 3%;
-  }
+#aboveFooter H3 {
+  color: red;
+}
 
-  #wishList a {
-    color: inherit;
-    text-decoration: none;
-  }
+#donate-img {
+  cursor: pointer;
+}
+
+#emailMe,
+#donate,
+#wishList {
+  margin: 3%;
+}
+
+#wishList a {
+  color: inherit;
+  text-decoration: none;
+}
 
 
 /*==============================
@@ -449,149 +592,151 @@ div.QRCode img{
 ================================*/
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffc1cb;;
-    padding: 40px;
-    position: relative;
-    color: maroon;
-    
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc1cb;
+  ;
+  padding: 40px;
+  position: relative;
+  color: maroon;
 
- 
-  footer a{
-    color: purple;
-    text-decoration: none;
-  }
+}
 
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer-menu {
-    flex: 1;
-    display: flex;
-    justify-content: space-around;
-    padding-right: 20px;
-  }
-  
-  .footer-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .footer-menu li {
-    margin-right: 20px;
-  }
-  
-  
-  .footer-line {
-    height: 1px;
-    width: 100%;
-    background-color: maroon;
-    margin: 10px 0;
-  }
-  
-  .footer-social-media {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
 
-  .footer-social-media ul{
-    list-style: none;
-  }
-  
-  .footer-social-media li {
-    margin-right: 0;
-    margin-bottom: 10px;
-   
-  }
-  
-  .footer-social-media a {
-    display: flex;
-    align-items: center;
-    color: purple;
-    text-decoration: none;
-  }
-  
-  .footer-social-media a ion-icon {
-    margin-right: 5px;
-  }
-  
+footer a {
+  color: purple;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 20px;
+}
+
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  margin-right: 20px;
+}
+
+
+.footer-line {
+  height: 1px;
+  width: 100%;
+  background-color: maroon;
+  margin: 10px 0;
+}
+
+.footer-social-media {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer-social-media ul {
+  list-style: none;
+}
+
+.footer-social-media li {
+  margin-right: 0;
+  margin-bottom: 10px;
+
+}
+
+.footer-social-media a {
+  display: flex;
+  align-items: center;
+  color: purple;
+  text-decoration: none;
+}
+
+.footer-social-media a ion-icon {
+  margin-right: 5px;
+}
+
 
 /*========================
 Butterfly Links
 ================*/
 
 
-  .butterfly {
-    width: 0;
-    height: 0;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    border-left: 100px solid pink;
-    border-right: 100px solid pink;
-    position: relative;
-  }
-  
-  .butterfly::before {
-    content: "";
-    width: 0;
-    height: 0;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    border-left: 100px solid white;
-    position: absolute;
-    top: -50px;
-    left: -100px;
-    transform: rotate(45deg);
-  }
-  
-  .butterfly::after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    border-right: 100px solid white;
-    position: absolute;
-    top: -50px;
-    right: -100px;
-    transform: rotate(-45deg);
-  }
+.butterfly {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 100px solid pink;
+  border-right: 100px solid pink;
+  position: relative;
+}
+
+.butterfly::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 100px solid white;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  transform: rotate(45deg);
+}
+
+.butterfly::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 100px solid white;
+  position: absolute;
+  top: -50px;
+  right: -100px;
+  transform: rotate(-45deg);
+}
 
 
 
 
-  table {
-    border-collapse: collapse;
-    box-shadow: 2 0 10px rgb(156, 156, 242);
-    background-color: white;
-    border: 2px solid black;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  th, td {
-    padding: 10px;
-    border: 1px solid black;
-    text-align: left;
-  }
-  th{
-    background-color: black;
-    color: white;
-    font-weight: normal;
-  }
+table {
+  border-collapse: collapse;
+  box-shadow: 2 0 10px rgb(156, 156, 242);
+  background-color: white;
+  border: 2px solid black;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
 
-  caption {
-    background-color: rgb(94, 94, 233);
-    color: white;
-    font-weight: normal;
-  }
-  
-  
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-weight: normal;
+}
+
+caption {
+  background-color: rgb(94, 94, 233);
+  color: white;
+  font-weight: normal;
+}

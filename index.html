@@ -41,7 +41,7 @@
                     <a href='#aboutMe'>ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href='#updates'>UPDATES</a>
+                    <a href='#portfolio'>PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
                     <a href='#shop'>SHOP</a>
@@ -58,24 +58,14 @@
             </ul>
         </nav>
 
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-
-
     </header>
 
 
     <div class="mainContent">
-        <!-- <img src="photos/butterflyWoman.jpeg"/> -->
-
-
 
         <div id="aboutContainer">
             <div>
-                <h2 id="aboutMe" class="aboutMeH2">ABOUT ME:</h2>
+                <h2 id="aboutMe" class="contentHeadings">ABOUT ME:</h2>
                 <p class="aboutMeParagraph"> Hello, I'm Nicole, also known as NicoleCodeGirl. I'm a dedicated and
                     self-taught coder with over 6 years of experience.
                     My expertise lies in JavaScript, where I've honed my skills to a professional level. I'm constantly
@@ -85,7 +75,6 @@
                     about using technology to bring my creative visions to life. If you're looking for a skilled and
                     enthusiastic coder, I'm your person.</p>
             </div>
-
 
             <div>
                 <h2 class="aboutMeH2">ABOUT THE SITE:</h2>
@@ -104,46 +93,69 @@
 
         </div>
 
-       
-
-
     </div><!--end div mainContent (first flex item)-->
 
     <div class="mainContent">
         <div>
-            <div id="updates-container">
-                <h2 id="updates" class="contentHeadings">UPDATES:</h2>
-                <h4>March 5, 2024</h4>
-                <p>I have a shop on TikTok where all my bracelets are being sold. Please come check
-                    out my profile there.
-                    <a href="https://www.tiktok.com/@nicolecodegirl?_t=8kQdYCG5AZq&_r=1">TikTok</a>.
+            <div id="portfolio-container">
+                <h2 id="portfolio" class="contentHeadings">PORTFOLIO:</h2>
+                <p>I have profiles on GitHub and LinkedIn where you can find my coding projects
+                    and professional experience. Please come check out my profiles and follow me
+                    there. I'm also seeking work as a front-end developer.
                 </p>
-            </div><!--end div for updates-->
+
+
+                <div id="portfolioWidgets">
+                    <div class="github-widget">
+                        <div class="github-card" data-github="nicolecodegirl" data-width="400" data-height=""
+                            data-theme="default"></div>
+                        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                    </div>
+
+                    <div class="linkedin-badge">
+                        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium"
+                            data-theme="light" data-type="VERTICAL" data-vanity="nicolecodegirl" data-version="v1">
+                        </div>
+                    </div>
+                </div><!--end portfolio widget-->
+            </div><!--end div for portfolio-->
         </div>
 
         <div>
             <h2 id="shop" class="contentHeadings">SHOP</h2>
             <section class="shop-section">
-
-                <div class="shop-item">
-                    <img src="photos/customBracelets.png" alt="customBracelets">
+                <div id="customBraceletDiv">
+                    <img src="photos/customBracelets.png" alt="customBracelets" id="customBraceletImage">
                 </div>
-                <div class="shop-item">
+
+                <div class="customBraceletDetails">
                     <h2 class="item-title">Custom Bracelet</h2>
                     <p class="item-description">Customize your bracelet with up to 2 names. Choose your background color
-                        and writing color.
-                        I can add a heart in the middle if you have two names on the bracelet. I can also add hearts
-                        on either side of the name if it's just one name</p>
-                        <p>Please email me for your custom orders as I have not figured out how to create a checkout and shopping
-                            cart in code yet. Thanks for your support of my small business and patience in my coding abilities. Email me the names and colors and I will keep
-                            you updated on the progress, and then we can decide on the payment type (cashapp, zell, amazon gift card, etc).
-                        </p>
+                        and writing color. I can add a heart in the middle if you have two names on the bracelet. I can
+                        also add hearts on either side of the name if it's just one name</p>
+                    <p>Please email me for your custom orders as I have not figured out how to create a checkout and
+                        shopping cart in code yet. Thanks for your support of my small business and patience in my
+                        coding abilities. Email me the names and colors and I will keep you updated on the progress, and
+                        then we can decide on the payment type (cashapp, zell, amazon gift card, etc).</p>
                     <div class="item-details">
                         <p class="item-price">$20.00
                             <button id="buyButton" class="buyButton">
-                                <a href="mailto:nicolecodegirl@gmail.com?subject=Custom%20Bracelet&body=Please%20describe%20your%20custom%20bracelet%20below.%0A%0A">Email Custom Order Requests</a>
+                                <a
+                                    href="mailto:nicolecodegirl@gmail.com?subject=Custom%20Bracelet&body=Please%20describe%20your%20custom%20bracelet%20below.%0A%0A">Email
+                                    Custom Order Requests</a>
                             </button>
-                    </p>
+                        </p>
+                    </div>
+                    <div id="shopTikTok">
+                        <div class="decorativeLine"></div>
+                        <div class="shop-item">
+                            <div class="tiktokShopMessage">
+                                <p>If you have a TikTok profile, you can order directly from my TikTok shop below:</p>
+                                <a id="tiktok-link">
+                                    <img src="photos/newLogo_noBkrnd.png" alt="TikTok Shop" id="tiktok-image">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -152,14 +164,8 @@
     </div> <!--end maincontent container holding the updates and shop-->
 
 
-    <!-- </div> -->
-    </div>
-
-
-    </div><!--end div mainContent (second flex item))-->
-
     <div class="mainContent">
-        <h2>FOLLOW ME ON SOCIAL MEDIA</h2>
+        <h2 class="contentHeadings">FOLLOW ME ON SOCIAL MEDIA</h2>
         <div id="socialMedia">
 
             <iframe id="fbFrame"
@@ -272,13 +278,14 @@
             <script async src="https://www.tiktok.com/embed.js"></script>
 
         </div>
-        <div>
 
-            <div>
-                <h2 id="posts" class="contentHeadings">FACEBOOK POSTS</h2>
+
+        <div>
+            <div id="posts">
+                <h2 class="contentHeadings">FACEBOOK POSTS</h2>
             </div>
 
-            <div id="posts">
+            <div id="fbPosts">
 
                 <iframe class="posted"
                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpersonalized.by.NicoleCodeGirl%2Fposts%2Fpfbid02T8d8kXznec7HoEficqzT9ok6pr3ybX56L9fKkaQBtcZKu1wEKSPzjmfpaMXbShbdl&show_text=true&width=500"
@@ -373,9 +380,9 @@
         <div class="footer-menu">
             <ul>
                 <li><a href='#aboutMe'>ABOUT</a></li>
+                <li><a href='#portfolio'>PORTFOLIO</a></li>
                 <li><a href='#shop'>SHOP</a></li>
                 <li><a href='#posts'>POSTS</a></li>
-                </li>
             </ul>
         </div>
 
@@ -421,6 +428,7 @@
 
 
     <script src="js/index.js"></script>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

@@ -1,50 +1,7 @@
 
 @media screen and (max-width: 2560px) {
 
-/*==============================
-        hamburger menu
-================================*/
-.hamburger{
-    display: block;
-  }
-
-  .hamburger.active .bar:nth-child(2){
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .nav-menu{
-    /* position: fixed; */
-    position: absolute;
-    right: -105%;
-    top: 0%;
-    gap: 0;
-    flex-direction: column;
-    background-color: #5b3d5a;
-    width:105%;
-    text-align: center;
-    transition: 0.3s;
-  }
-
-  .nav-item{
-    margin: 16px 0;
-  }
-
-  .nav-menu.active {
-      right: -11px;
-}   
-
-.bar{
-    right: -45%;
-}
-
+/* 
 
 
 #content{

@@ -1,35 +1,10 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-})
+//tiktok link 
+document.getElementById('tiktok-link').addEventListener('click', function() {
+  window.open("https://www.tiktok.com/@nicolecodegirl?_t=8kQdYCG5AZq&_r=1");
+});
 
 
-document.querySelectorAll(".nav-item").forEach(n => n.
-  addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-  }))
-
-  
-
-
-
-
-
-
-//SKILLS SECTION
-let skills = ["WordPress", "Elementor", "JavaScript", "HTML", "CSS", "Nodejs", "MongoDB", "React.Js", "MySql"];
-let skillsSection = document.getElementById("skills");
-let skillsList = skillsSection.querySelector("ul");
-
-for (i= 0; i < skills.length; i++){
-    let skill = document.createElement('li');
-    skill.innerHTML = skills[i];
-    skillsList.appendChild(skill);
-}
 
 //DONATE
 

@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index_MQ.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+
     <link rel="icon" href="/photos/flyer.PNG">
     <meta property="og:image" content="/photos/customBracelets.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
 
     <!--Meta tags so the browser does not cache files-->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -37,31 +40,42 @@
 
 
     <header>
-        <nav class="navbar">
-            <a href='#' class="nav-branding">NICOLECODEGIRL</a>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">NICOLECODEGIRL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href='#aboutMe'>ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a href='#portfolio1'>PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                    <a href='#shop'>SHOP</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#followMe">FOLLOWME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#feed">POSTS</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#emailMe">CONTACT</a>
-                </li>
-            </ul>
+                    <ul id="navbar-nav" class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href='#aboutMe'>ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='#portfolio1'>PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='#shop'>SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#followMe">FOLLOWME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feed">FEED</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#emailMe">CONTACT</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
         </nav>
-
     </header>
 
 
@@ -90,7 +104,7 @@
                     crafted with care and attention to detail, making them perfect for personal use or as a thoughtful
                     gift.Your support in the form of page likes and follows is greatly
                     appreciated. Thank you for your consideration. If you're interested in purchasing any of my jewelry,
-                    please visit my shop on TikTok:
+                    please visit my shop on 
                     <a href="https://www.tiktok.com/@nicolecodegirl?_t=8kQdYCG5AZq&_r=1">TikTok</a>.
                 </p>
             </div>
@@ -176,7 +190,7 @@
     <div id="followMe" class="mainContent">
         <div>
             <h2 class="contentHeadings">FOLLOW ME ON SOCIAL MEDIA</h2>
-            <p>Social Media section is in progress. I know it looks a mess 
+            <p>Social Media section is in progress. I know it looks a mess
                 but i am working on it when time permits.</p>
         </div>
         <div id="socialMedia">
@@ -189,10 +203,11 @@
                 <div class="profile-detail">
                     <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook Logo">
                     <h2 class="name">Facebook</h2>
-                  <h3 class="post-title">Personalized by NicoleCodeGirl</h3>
-                  <p class="post-description">I'm a self-taught coder and I love to create unique 
-                    bracelets and stickers.</p>
-                <a href="https://www.facebook.com/personalized.by.NicoleCodeGirl/" class="profileButton">FOLLOW ME</a>
+                    <h3 class="post-title">Personalized by NicoleCodeGirl</h3>
+                    <p class="post-description">I'm a self-taught coder and I love to create unique
+                        bracelets and stickers.</p>
+                    <a href="https://www.facebook.com/personalized.by.NicoleCodeGirl/" class="profileButton">FOLLOW
+                        ME</a>
                 </div>
             </div>
 
@@ -205,10 +220,11 @@
                 <div class="profile-detail">
                     <img src="photos/instagramLogo.png" alt="logo">
                     <h2 class="name">Instagram</h2>
-                  <h3 class="post-title">@personalized_by_nicolecodegirl</h3>
-                  <p class="post-description">I'm a self-taught coder and I love to create unique 
-                    bracelets and stickers.</p>
-                <a href="https://www.instagram.com/personalized_by_NicoleCodeGirl/" class="profileButton">FOLLOW ME</a>
+                    <h3 class="post-title">@personalized_by_nicolecodegirl</h3>
+                    <p class="post-description">I'm a self-taught coder and I love to create unique
+                        bracelets and stickers.</p>
+                    <a href="https://www.instagram.com/personalized_by_NicoleCodeGirl/" class="profileButton">FOLLOW
+                        ME</a>
                 </div>
             </div>
 
@@ -221,11 +237,11 @@
                 <div class="profile-detail">
                     <img src="photos/tiktokLogo.jpeg" alt="logo">
                     <h2 class="name">TikTok</h2>
-                  <h3 class="post-title">NicoleCodeGirl</h3>
-                  <p class="post-description">Watch videos, live events, and checkout my tiktok shop
-                    to buy my bracelets and stickers.
-                  </p>
-                <a href="https://www.tiktok.com/@nicolecodegirl" class="profileButton">FOLLOW ME</a>
+                    <h3 class="post-title">NicoleCodeGirl</h3>
+                    <p class="post-description">Watch videos, live events, and checkout my tiktok shop
+                        to buy my bracelets and stickers.
+                    </p>
+                    <a href="https://www.tiktok.com/@nicolecodegirl" class="profileButton">FOLLOW ME</a>
                 </div>
             </div>
 
@@ -237,7 +253,7 @@
             <h2 class="contentHeadings">INSTAGRAM FEED</h2>
         </div>
         <iframe src="https://widget.taggbox.com/152198" style="width:100%;height:600px;border:none;"></iframe>
-    </div><!--end mainContent for posts-->
+    </div><!--end mainContent for Instagram feed-->
 
 
 
@@ -307,7 +323,7 @@
                 <li><a href='#aboutMe'>ABOUT</a></li>
                 <li><a href='#portfolio1'>PORTFOLIO</a></li>
                 <li><a href='#shop'>SHOP</a></li>
-                <li><a href='#feed'>POSTS</a></li>
+                <li><a href='#feed'>FEED</a></li>
             </ul>
         </div>
 
@@ -357,6 +373,10 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 
 </body>

@@ -19,6 +19,21 @@ donateBtn.addEventListener("click", () => {
   window.location.href = "https://www.paypal.me/nicoleluvzpurple";
 });
 
+//CONTACT FORM
+
+function validateForm() {
+  let email = document.getElementById('email').value;
+  let subject = document.getElementById('subject').value;
+  let message = document.getElementById('message').value;
+
+  if (email == "" || subject == "" || message == "") {
+      document.getElementById('email-error').textContent = email == "" ? "Email is required" : "";
+      document.getElementById('subject-error').textContent = subject == "" ? "Subject is required" : "";
+      document.getElementById('message-error').textContent = message == "" ? "Message is required" : "";
+      return false;
+  }
+  return true;
+}
 
 
 

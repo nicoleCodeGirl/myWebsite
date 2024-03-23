@@ -189,14 +189,14 @@ li {
   position: absolute;
   top: 0;
   z-index: 3;
-  width: 0px;
+  width: 0;
   height: 100%;
   background-color: #06f745;
   transition: 0.4s ease-out;
 }
 
 .profileCard:hover .filledbar {
-  width: 150px;
+  width: 75%;
   transition: 0.4s ease-out;
 }
 
@@ -472,7 +472,7 @@ iframe {
 
 
 /*===================================================
-               ABOVE FOOTER - EMAIL & DONATE BUTTONS 
+            ABOVE FOOTER - CONTACT ME 
   ====================================================*/
 
 .aboveFooter {

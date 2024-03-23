@@ -56,7 +56,6 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  /* Ensure it's on top of other elements */
 }
 
 li {
@@ -274,7 +273,7 @@ Making a two column about me section
   margin: 1%;
   box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
   width: 100%;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 .sections {

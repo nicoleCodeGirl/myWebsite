@@ -1,13 +1,10 @@
-# myWebsite
+# www.nicolecodegirl.com
 
-This is the personal website of Nicole Bradley
+### :purple_heart: Hello! I am NicoleCodeGirl! :purple_heart:
 
-Email: 
-nicolecodegirl@gmail.com
+I have been studying web development for over 6 years. I used my skills to make a personal website for my beaded jewelry business. 
 
-Domain name: www.nicolecodegirl.com
-
-===================================================
+### ===================================================
 
 The site is in progress, but these are the issues I need some collaboration with. 
 
@@ -17,6 +14,7 @@ The site is in progress, but these are the issues I need some collaboration with
 
 (3)I know I need to fix margins, but if you see anything else that needs to be fixed please let me know. 
 
-You can either messsage me at the email above, or on any of the profiles on my site. You can also play around with it on your own local branch and I'll review any edits you make.
+You can contact me at:
+nicolecodegirl@gmail.com
 
-Thank you!
+Thank you! 😃

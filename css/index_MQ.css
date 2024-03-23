@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 111%;
+    }
+
+    #portfolioWidgets {
+        grid-template-columns: none;
+    }
+
+    .shop-section {
+        grid-template-columns: none;
+    }
+}

@@ -1,4 +1,4 @@
-@media screen and (min-width: 390px) {
+/* @media screen and (min-width: 400px) {
     .wrapper {
         width: 130%;
     }
@@ -10,4 +10,39 @@
     .shop-section {
         grid-template-columns: none;
     }
-}
+
+    #socialMedia {
+        flex-direction: row
+        }
+        
+        .profileCard{
+        width: 250px;
+            margin-left: -50px;
+        }
+} */
+
+
+
+
+/* Responsive styling */
+/* @media (max-width: 768px) {
+    .email-button {
+        padding: 8px 16px;  */
+        /* Adjust padding for smaller screens */
+    /* }
+  } */
+  
+
+
+/* Responsive styling */
+/* @media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .footer-nav {
+        margin-bottom: 20px;
+    }
+  } */
+  

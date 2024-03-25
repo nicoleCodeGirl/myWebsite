@@ -12,7 +12,7 @@ body {
   width: 100%;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -71,8 +71,7 @@ li {
   justify-content: center;
   align-items: center;
   background-color: purple;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding: 10% 5% 10% 5%;
 }
 
 .profileCard {
@@ -81,25 +80,26 @@ li {
   width: 80%;
   cursor: pointer;
   box-shadow: -1rem 0 3rem #000;
-  margin:0;
+  margin: 0;
   position: relative;
   left: 0px;
   border-radius: 10px;
   transition: 0.4s ease-out;
   background-image: radial-gradient(circle farthest-corner at 10% 20%, pink, blue, rgb(239, 136, 169), purple);
 }
+
 /* 
 .profileCard:not(:first-child){
   margin-left: -40px;
 } */
 
-.profileCard:hover{
+.profileCard:hover {
   transform: translateY(-20px);
   transition: 0.4s ease-out;
-  background-image: radial-gradient(circle 523px at 7.1% 19.3%, magenta, rgb(236, 220, 137), rgb(247, 130, 216), rgb(66, 6, 66) );
+  background-image: radial-gradient(circle 523px at 7.1% 19.3%, magenta, rgb(236, 220, 137), rgb(247, 130, 216), rgb(66, 6, 66));
 }
 
-.profileCard:hover ~ .profileCard{
+.profileCard:hover~.profileCard {
   position: relative;
   /* left:50px; */
   transition: 0.4s ease-out;
@@ -213,12 +213,12 @@ Making a two column about me section
 .mainContent {
   background-color: #eaadc4;
   line-height: 2;
-  padding: 5%;
+  padding: 12%;
   padding-bottom: 8%;
   margin: 1%;
   box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
   width: 100%;
-  /* box-sizing: border-box; */
+  box-sizing: content-box;
 }
 
 .sections {
@@ -231,52 +231,11 @@ Making a two column about me section
 }
 
 
-/*=================================
-        PORTFOLIO 
-================================*/
-
-.github-widget {
-  background: linear-gradient(to right, #000, #444, #888, #ccc, #fff);
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.linkedin-badge {
-  background: linear-gradient(to right, #00f, #44f, #88f, #ccf, #fff);
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#portfolioWidgets {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* Three equal columns */
-  gap: 20px;
-  /* Add some space between the columns */
-}
-
 
 /*============================
-      MY STORE
+      CONTENT HEADINGS
 ==============================*/
 
-#fbPosts {
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-iframe {
-  background-color: white;
-}
-
-.posted {
-  margin: 3%;
-}
 
 .contentHeadings {
   font-size: 34px;
@@ -295,11 +254,10 @@ iframe {
 ==============================*/
 
 .shop-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* Two equal columns */
+  display: flex;
   align-items: center;
   gap: 20px;
+  flex-direction: column;
 }
 
 
@@ -326,7 +284,7 @@ iframe {
 }
 
 .customBraceletDetails .item-title {
-  font-size: 24px;
+  font-size: 20px;
   color: #8b008b;
   /* Dark magenta */
   text-transform: uppercase;
@@ -421,8 +379,8 @@ iframe {
 
 .aboveFooter {
   display: block;
-  text-align: center;
-  padding: 3%;
+    text-align: center;
+    padding: 9%;
   box-shadow: inset -11px -14px 9px 4px rgb(119 20 221), inset 17px 24px 9px -2px rgb(0 212 255);
   border: 7px double #787dde;
   background-color: #f5eaef;
@@ -434,6 +392,34 @@ iframe {
   margin: 0 auto;
 }
 
+
+
+/* Basic styling for the email button */
+.email-button {
+  display: inline-block; /* Display as inline-block to make it act like a button */
+  padding: 10px 20px; /* Padding for spacing inside the button */
+  background-color: #007bff; /* Button background color */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the image horizontally */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  text-decoration: none; /* Remove default underline */
+}
+
+
+/* Hover effect */
+.email-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Styling for the email image */
+#email-img {
+  max-width: 100%; /* Make sure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align image vertically center */
+}
+
+
 /*==============================
             FOOTER
 ================================*/
@@ -442,6 +428,7 @@ iframe {
   background-color: purple;
   color: #fff;
   padding: 20px 0;
+  width: 125%;
 }
 
 .footer-content {
@@ -449,6 +436,7 @@ iframe {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .footer-nav {
@@ -457,6 +445,7 @@ iframe {
   margin: 0;
   display: flex;
   gap: 20px;
+  flex-direction: column;
 }
 
 .footer-nav li {
@@ -476,6 +465,7 @@ iframe {
 .social-icons {
   display: flex;
   gap: 10px;
+  flex-direction: column;
 }
 
 .social-icons a {

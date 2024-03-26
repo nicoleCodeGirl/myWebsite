@@ -8,12 +8,11 @@ I have been studying web development for over 6 years. I used my skills to make 
 
 The site is in progress, but these are the issues I need some collaboration with. 
 
-(1) The site is repsonsive for deviceswith the dimensions 320 x 432
+(1) The site is repsonsive MOBILE first, for devices up to dimensions 1280 x 432. 
 
-(2) I will work on the media queries next so it can be responsive to bigger devices. 
-    I am working Mobile First. 
+(2) I still have a few more dimensions to finish with the media queries
 
-(3)I know I need to fix margins (especially the top margin under the heading), but if you see anything else that needs to be fixed please let me know. 
+(3)If you see anything else that needs to be fixed, or if you think I should add anything,please let me know. I appreciate feedback. 
 
 You can contact me at:
 nicolecodegirl@gmail.com

@@ -15,6 +15,7 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
+  margin-top: 17%;
 }
 
 
@@ -188,8 +189,8 @@ li {
   top: 225px;
   left: 20px;
   color: white;
-  font-size: 10px;
-  padding-right: 60px;
+  font-size: 12px;
+  padding-right: 8%;
 }
 
 .profileButton {
@@ -241,7 +242,7 @@ Making a two column about me section
   font-size: 34px;
   text-transform: uppercase;
   text-align: center;
-  margin: 3% 0;
+  margin: 3% 0 5% 0;
   letter-spacing: -2px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
   box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
@@ -265,17 +266,13 @@ Making a two column about me section
   text-align: center;
   margin: 0;
   max-width: 100%;
-  /* Set the maximum width of the grid item to 100% */
   height: auto;
-  /* Set the height of the grid item to auto */
 }
 
 
 #customBraceletDiv img {
-  width: 100%;
-  /* Set the image width to 100% of its container */
+  width: 90%;
   height: auto;
-  /* Maintain the aspect ratio of the image */
 }
 
 .customBraceletDetails {
@@ -315,20 +312,27 @@ Making a two column about me section
 
 .customBraceletDetails .buyButton {
   background: linear-gradient(to bottom, #8b008b, #4f4f4f);
-  padding: 20px 60px;
-  /* Increased button padding */
+  /* padding: 20px 60px; */
   font-size: 24px;
-  /* Increased button font size */
   color: white;
   display: block;
   margin: 0 auto;
+
+  padding: 5px 0px;
+  width: 230px;
+  border: 1px solid lavender;
+  text-align: center;
+  border-radius: 20px;
 }
 
-.customBraceletDetails .buyButton a {
+.customBraceletDetails .buyButton:hover {
+  transform: scale(1.1);
+}
+
+
+.item-price a {
   text-decoration: none;
-  /* Remove underline */
   color: white;
-  /* Set text color to white */
 }
 
 #shopTikTok {
@@ -343,7 +347,6 @@ Making a two column about me section
 
 #shopTikTok .tiktokShopMessage img {
   max-width: 100px;
-  /* Adjust as needed */
 }
 
 #shopTikTok .decorativeLine {
@@ -363,6 +366,14 @@ Making a two column about me section
   transform: scale(1.1);
 }
 
+/*=================================
+       INSTAGRAM POSTS
+================================*/
+
+.tb_cc_post_wrapper {
+  padding: 3%
+}
+
 
 /*==============================
             BACK TO TOP
@@ -379,44 +390,30 @@ Making a two column about me section
 
 .aboveFooter {
   display: block;
-    text-align: center;
-    padding: 9%;
+  text-align: center;
+  padding: 9%;
   box-shadow: inset -11px -14px 9px 4px rgb(119 20 221), inset 17px 24px 9px -2px rgb(0 212 255);
   border: 7px double #787dde;
   background-color: #f5eaef;
   margin-bottom: 2%;
 }
 
+
+#email-img:hover {
+  transform: scale(1.1);
+}
+
+.email-button {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
 #email-img {
   display: block;
   margin: 0 auto;
-}
-
-
-
-/* Basic styling for the email button */
-.email-button {
-  display: inline-block; /* Display as inline-block to make it act like a button */
-  padding: 10px 20px; /* Padding for spacing inside the button */
-  background-color: #007bff; /* Button background color */
-  border-radius: 5px; /* Rounded corners */
-  text-align: center; /* Center the image horizontally */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  transition: background-color 0.3s ease; /* Smooth transition for background color change */
-  text-decoration: none; /* Remove default underline */
-}
-
-
-/* Hover effect */
-.email-button:hover {
-  background-color: #0056b3; /* Darker background color on hover */
-}
-
-/* Styling for the email image */
-#email-img {
-  max-width: 100%; /* Make sure the image is responsive */
-  height: auto; /* Maintain aspect ratio */
-  vertical-align: middle; /* Align image vertically center */
+  max-width: 100%;
+  height: auto;
 }
 
 

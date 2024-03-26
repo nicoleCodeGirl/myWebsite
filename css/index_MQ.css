@@ -1,48 +1,64 @@
-/* @media screen and (min-width: 400px) {
+/* Mobile L - 425 */
+
+@media screen and (min-width: 425px) {
+
     .wrapper {
-        width: 130%;
+        margin-top: 16%
     }
 
-    #portfolioWidgets {
-        grid-template-columns: none;
+}
+
+@media screen and (min-width: 575px) {
+    .wrapper {
+        margin-top: 12%;
     }
 
-    .shop-section {
-        grid-template-columns: none;
+    .footer-nav, .social-icons{
+        flex-direction: row;
+    }
+
+    .profileCard{
+        width: 48%;
     }
 
     #socialMedia {
-        flex-direction: row
-        }
-        
-        .profileCard{
-        width: 250px;
-            margin-left: -50px;
-        }
-} */
-
-
-
-
-/* Responsive styling */
-/* @media (max-width: 768px) {
-    .email-button {
-        padding: 8px 16px;  */
-        /* Adjust padding for smaller screens */
-    /* }
-  } */
-  
-
-
-/* Responsive styling */
-/* @media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-  
-    .footer-nav {
-        margin-bottom: 20px;
+
+    .contentHeadings{
+        margin: -4% 0 7% 0;
     }
-  } */
-  
+}
+
+@media screen and (min-width: 640px) {
+    .wrapper {
+        margin-top: 11%;
+    }
+
+}
+
+@media screen and (min-width: 767px) {
+    .wrapper {
+        margin-top: 9%;
+    }
+
+    .profileCard{
+        width: 31%;
+    }
+
+}
+
+@media screen and (min-width: 991px) {
+    .wrapper {
+        margin-top: 8%;
+    }
+
+}
+
+@media screen and (min-width: 1199px) {
+    .wrapper {
+        margin-top: 7%;
+    }
+
+}

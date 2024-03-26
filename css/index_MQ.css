@@ -13,11 +13,12 @@
         margin-top: 12%;
     }
 
-    .footer-nav, .social-icons{
+    .footer-nav,
+    .social-icons {
         flex-direction: row;
     }
 
-    .profileCard{
+    .profileCard {
         width: 48%;
     }
 
@@ -26,7 +27,7 @@
         flex-wrap: wrap;
     }
 
-    .contentHeadings{
+    .contentHeadings {
         margin: -4% 0 7% 0;
     }
 }
@@ -43,7 +44,7 @@
         margin-top: 9%;
     }
 
-    .profileCard{
+    .profileCard {
         width: 31%;
     }
 
@@ -61,4 +62,63 @@
         margin-top: 7%;
     }
 
+    .profileCard {
+        width: 18%;
+        height: 380px;
+    }
+
+    .bar {
+        width: 207px
+    }
+
+    .profile-detail .post-title {
+        font-size: 9px
+    }
+
+    .profileButton {
+        top: 335px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .wrapper {
+        /* left: -13px;
+            position: absolute; */
+        margin-top: 6%;
+
+    }
+
+    .mainContent {
+        padding: 12% 10% 12% 10%;
+    }
+
+    .footer {
+        width: 121%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .wrapper {
+        margin-top: 4%;
+    }
+
+    .MQ_Mac_2560 {
+        display: flex;
+        flex-direction: row;
+        width: 122%;
+    }
+
+    header {
+        width: 99.15%;
+    }
+
+    .footer {
+        width: 121%;
+    }
+
+    .profileCard {
+        width: 45%;
+        height: 432px;
+    }
 }

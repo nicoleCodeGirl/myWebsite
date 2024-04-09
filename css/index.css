@@ -216,7 +216,7 @@ Making a two column about me section
   line-height: 2;
   padding: 12%;
   padding-bottom: 8%;
-  margin: 1%;
+  margin: 1% 0;
   box-shadow: inset -17px -18px 9px 6px #f475e1, inset 17px 18px 9px 6px #dd568f;
   width: 100%;
   box-sizing: content-box;

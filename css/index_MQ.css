@@ -98,12 +98,16 @@
     }
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1439px) {
+
+    body{
+        width: 83%;
+    }
 
     .mainContent{
         padding: none;
     }
-    
+
     .wrapper {
         margin-top: 4%;
     }
@@ -111,12 +115,12 @@
     .MQ_Mac_2560 {
         display: flex;
         flex-direction: row;
-        width: 122%;
+        width: 120%;
     }
 
-    header {
+    /* header {
         width: 99.15%;
-    }
+    } */
 
     .footer {
         width: 121%;

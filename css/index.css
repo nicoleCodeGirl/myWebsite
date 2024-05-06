@@ -61,6 +61,14 @@ li {
   color: white;
 }
 
+/*================================
+          ABOUT ME
+==================================*/
+
+#aboutLogo{
+  width: 14%;
+  float: inline-start;
+}
 
 
 
@@ -288,6 +296,22 @@ Making a two column about me section
   background-color: #f5eaef;
   margin-bottom: 2%;
   margin-top: 2%;
+  text-align: center;
+}
+
+#paypalForm{
+  padding: 7%;
+}
+
+#shipReturn{
+  display: block;
+  padding: 5%;
+  color: white;
+  border: 7px double #787dde;
+  background-color: #ef6ea8;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  text-align: left;
 }
 
 .customBraceletDetails {
@@ -367,16 +391,18 @@ Making a two column about me section
   margin: 20px 0;
 }
 
-#tiktok-image {
-  transition: transform 0.2s;
-}
 
-#tiktok-link:active #tiktok-image {
-  transform: scale(0.9);
+.tiktok-button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
 }
-
-#tiktok-link:hover #tiktok-image {
-  transform: scale(1.1);
+.tiktok-button:hover {
+  background-color: #333;
 }
 
 /*=================================

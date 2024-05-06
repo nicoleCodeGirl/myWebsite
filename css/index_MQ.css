@@ -1,4 +1,10 @@
-/* Mobile L - 425 */
+@media screen and (min-width: 375px) {
+
+    .wrapper {
+        margin-top: 19%
+    }
+
+}
 
 @media screen and (min-width: 425px) {
 
@@ -126,5 +132,12 @@
     .profileCard {
         width: 45%;
         height: 432px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+
+    .wrapper {
+       margin-top: 4%;
     }
 }
